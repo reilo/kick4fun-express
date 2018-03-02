@@ -17,5 +17,5 @@ app.use(allowCrossDomain);
 routes(app);
 
 var server = app.listen(3001, function () {
-    console.log("app running on port.", server.address().port);
+    console.log("app running on port:", server.address().port);
 });
