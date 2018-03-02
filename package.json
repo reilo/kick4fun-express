@@ -1,0 +1,20 @@
+{
+  "name": "kick4fun-express",
+  "version": "1.0.0",
+  "description": "kick4fun Rest API - template from 5 minutes codementor.io",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Reinhard Loch",
+  "license": "MIT",
+  "dependencies": {
+    "express": "4.16.2",
+    "body-parser": "1.18.2"
+  },
+  "devDependencies": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/reilo/kick4fun-express"
+  }
+}
