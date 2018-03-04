@@ -1,7 +1,9 @@
 var express = require("express");
 var bodyParser = require("body-parser");
-var routes = require("./routes/routes.js");
-var app = express();
+var routes = require("./routes/routes");
+
+var port = 3001;
+var appPath = '/';
 
 var allowCrossDomain = (req, res, next) => {
   res.header('Access-Control-Allow-Origin', '*');
@@ -10,11 +12,14 @@ var allowCrossDomain = (req, res, next) => {
   next();
 }
 
+var app = express();
+app.set('port', port);
+app.use(allowCrossDomain);
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
-app.use(allowCrossDomain);
+app.use(appPath + 'api', routes);
 
-routes(app);
+//routes(app);
 
 var server = app.listen(3001, function () {
     console.log("app running on port:", server.address().port);

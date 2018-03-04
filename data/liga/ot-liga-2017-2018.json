@@ -1,6 +1,8 @@
 {
     "Name": "OpenText Kickerliga 2017/2018",
     "Typ": "Liga",
+    "Teilnehmer": [ "Kurt", "Katja", "Ferda", "Manfred", "Anja", "Lio", "Herbert", "Franz",
+      "Claus", "Josef", "Hermann", "Anton", "Reinhard", "Szabi", "Stefano", "Uschi" ],
     "Runden": [
         {
             "Beginn": "2017-10-02",

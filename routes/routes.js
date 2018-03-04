@@ -1,14 +1,9 @@
-var fs=require('fs');
+const express = require('express');
+const router = express.Router();
 
-var appRouter = function (app) {
-  app.get("/", function(req, res) {
-    var data=fs.readFileSync('data.json', 'utf8');
-    //var words=JSON.parse(data);
-    //res.status(200).send(words.message);
-    res.status(200).send(JSON.parse(data).authors);
-    console.log("data sent:", JSON.parse(data).authors);
-    //res.status(200).send("Welcome to our restful API");
-  });
-}
+const liga = require('./liga.js');
 
-module.exports = appRouter;
+router.get('/liga/:id', liga.data);
+router.get('/liga/:id/tabelle', liga.tabelle);
+
+module.exports = router;
