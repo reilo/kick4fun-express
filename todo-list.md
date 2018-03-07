@@ -1,0 +1,1 @@
+Berechnung für 2 Sätze

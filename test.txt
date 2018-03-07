@@ -1,1 +1,9 @@
- http://localhost:3001/api/liga/ot-liga-2017-2018/tabelle
+http://localhost:3001/api/kickerliga
+ 
+http://localhost:3001/api/kickerliga/tournaments
+
+http://localhost:3001/api/kickerliga/templates
+
+http://localhost:3001/api/kickerliga/tournaments/ot-liga-2017-2018
+
+ 

@@ -1,9 +1,16 @@
 const express = require('express');
 const router = express.Router();
 
-const liga = require('./liga.js');
+const kickerliga = require('./kickerliga');
+const tournament = require('./tournament');
+const template = require('./template');
 
-router.get('/liga/:id', liga.data);
-router.get('/liga/:id/tabelle', liga.tabelle);
+router.get('/kickerliga', kickerliga.get);
+
+router.get('/kickerliga/tournaments', tournament.list);
+router.get('/kickerliga/tournaments/:id', tournament.get);
+
+router.get('/kickerliga/templates', template.list);
+router.get('/kickerliga/templates/:id', template.get);
 
 module.exports = router;
