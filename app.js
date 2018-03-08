@@ -12,9 +12,15 @@ var allowCrossDomain = (req, res, next) => {
   next();
 }
 
+var consoleLog = (req, res, next) => {
+  console.log(req.url);
+  next();
+}
+
 var app = express();
 app.set('port', port);
 app.use(allowCrossDomain);
+app.use(consoleLog);
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(appPath + 'api', routes);

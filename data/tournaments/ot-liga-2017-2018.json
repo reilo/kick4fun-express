@@ -171,22 +171,22 @@
             "endDate": "2018-01-28",
             "matches": [
                 {
-                    "date": "",
+                    "date": "2018-01-23",
                     "player": [ [ "Hermann", "Uschi" ], [ "Lio", "Kurt" ] ],
                     "result": [ [ 3, 10 ], [ 10, 8 ], [ 1, 10 ] ]
                 },
                 {
-                    "date": "",
+                    "date": "2018-01-25",
                     "player": [ [ "Franz", "Szabi" ], [ "Claus", "Ferda" ] ],
                     "result": [ [ 10, 4 ], [ 10, 2 ], [ 10, 5 ] ]
                 },
                 {
-                    "date": "",
+                    "date": "2018-01-15",
                     "player": [ [ "Katja", "Anton" ], [ "Stefano", "Anja" ] ],
                     "result": [ [ 2, 10 ], [ 1, 10 ], [ 0, 10 ] ]
                 },
                 {
-                    "date": "",
+                    "date": "2018-01-26",
                     "player": [ [ "Manfred", "Herbert" ], [ "Reinhard", "Josef" ] ],
                     "result": [ [ 7, 10 ], [ 7, 10 ], [ 3, 10 ] ]
                 }
@@ -197,22 +197,22 @@
             "endDate": "2018-02-11",
             "matches": [
                 {
-                    "date": "",
+                    "date": "2018-01-31",
                     "player": [ [ "Claus", "Reinhard" ], [ "Josef", "Ferda" ] ],
                     "result": [ [ 10, 5 ], [ 3, 10 ], [ 10, 9 ] ]
                 },
                 {
-                    "date": "",
+                    "date": "2018-02-12",
                     "player": [ [ "Kurt", "Anja" ], [ "Stefano", "Lio" ] ],
                     "result": [ [ 10, 5 ], [ 6, 10 ], [ 9, 10 ] ]
                 },
                 {
-                    "date": "",
+                    "date": "2018-02-01",
                     "player": [ [ "Manfred", "Franz" ], [ "Szabi", "Herbert" ] ],
                     "result": [ [ 6, 10 ], [ 8, 10 ], [ 10, 7 ] ]
                 },
                 {
-                    "date": "",
+                    "date": "2018-02-08",
                     "player": [ [ "Anton", "Uschi" ], [ "Hermann", "Katja" ] ],
                     "result": [ [ 6, 10 ], [ 5, 10 ], [ 7, 10 ] ]
                 }
@@ -223,22 +223,22 @@
             "endDate": "2018-02-25",
             "matches": [
                 {
-                    "date": "",
+                    "date": "2018-02-14",
                     "player": [ [ "Manfred", "Anton" ], [ "Uschi", "Franz" ] ],
                     "result": [ [ 10, 6 ], [ 10, 6 ], [ 5, 10 ] ]
                 },
                 {
-                    "date": "",
+                    "date": "2018-02-20",
                     "player": [ [ "Hermann", "Szabi" ], [ "Herbert", "Katja" ] ],
                     "result": [ [ 10, 5 ], [ 10, 4 ], [ 10, 3 ] ]
                 },
                 {
-                    "date": "",
+                    "date": "2018-02-21",
                     "player": [ [ "Reinhard", "Anja" ], [ "Kurt", "Claus" ] ],
                     "result": [ [ 4, 10 ], [ 10, 6 ], [ 5, 10 ] ]
                 },
                 {
-                    "date": "",
+                    "date": "2018-02-22",
                     "player": [ [ "Lio", "Ferda" ], [ "Josef", "Stefano" ] ],
                     "result": [ [ 7, 10 ], [ 3, 10 ], [ 4, 10 ] ]
                 }
@@ -246,48 +246,48 @@
         },
         {
             "startDate": "2018-02-26",
-            "endDate": "2018-03-04",
+            "endDate": "2018-03-07",
             "matches": [
                 {
-                    "date": "",
+                    "date": "2018-03-01",
                     "player": [ [ "Szabi", "Ferda" ], [ "Lio", "Hermann" ] ],
                     "result": [ [ 8, 10 ], [ 8, 10 ], [ 10, 4 ] ]
                 },
                 {
-                    "date": "",
+                    "date": "2018-03-06",
                     "player": [ [ "Manfred", "Reinhard" ], [ "Anja", "Anton" ] ],
                     "result": [ [ 6, 10 ], [ 10, 5 ], [ 10, 4 ] ]
                 },
                 {
-                    "date": "",
+                    "date": "2018-02-28",
                     "player": [ [ "Stefano", "Katja" ], [ "Herbert", "Josef" ] ],
                     "result": [ [ 10, 2 ], [ 10, 8 ], [ 10, 2 ] ]
                 },
                 {
-                    "date": "",
+                    "date": "2018-02-27",
                     "player": [ [ "Kurt", "Uschi" ], [ "Franz", "Claus" ] ],
                     "result": [ [ 9, 10 ], [ 10, 6 ], [ 10, 9 ] ]
                 }
             ]
         },
         {
-            "startDate": "2018-03-05",
+            "startDate": "2018-03-08",
             "endDate": "2018-03-18",
             "matches": [
                 {
-                    "date": "",
+                    "date": "2018-03-13",
                     "player": [ [ "Josef", "Claus" ], [ "Franz", "Herbert" ] ]
                 },
                 {
-                    "date": "",
+                    "date": "2018-03-08",
                     "player": [ [ "Uschi", "Katja" ], [ "Stefano", "Kurt" ] ]
                 },
                 {
-                    "date": "",
+                    "date": "2018-03-12",
                     "player": [ [ "Lio", "Anja" ], [ "Anton", "Hermann" ] ]
                 },
                 {
-                    "date": "",
+                    "date": "2018-03-14",
                     "player": [ [ "Manfred", "Szabi" ], [ "Ferda", "Reinhard" ] ]
                 }
             ]

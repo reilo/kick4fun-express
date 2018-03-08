@@ -6,4 +6,3 @@ http://localhost:3001/api/kickerliga/templates
 
 http://localhost:3001/api/kickerliga/tournaments/ot-liga-2017-2018
 
- 

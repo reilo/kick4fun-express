@@ -16,7 +16,15 @@ exports.list = function (request, response, next) {
     var id = cur.substr(0, cur.lastIndexOf('.'));
     var data = fs.readFileSync(dirPath + cur, 'utf-8');
     var json = JSON.parse(data);
-    res.push({ id: id, name: json.name, type: json.type });
+    let item = { id: id, name: json.name, type: json.type };
+    const table = calculateTable(json);
+    table && table.length && Object.assign(item, {
+      ranking: table.reduce((res, cur, index) => {
+        index < 3 && res.push(cur.player);
+        return res;
+      }, [])
+    });
+    res.push(item);
     return res;
   }, []);
   response.status(200).send(tournaments);
@@ -24,6 +32,8 @@ exports.list = function (request, response, next) {
 
 function calculateTable(data) {
   var template = { "matches": 0, "wins": 0, "score": 0, "goalsScored": 0, "goalsShipped": 0 };
+  var table = []
+  if (!data.participants) return table;
   var map = data.participants.reduce((obj, cur) => {
     obj[cur] = Object.assign({}, template);
     return obj;
@@ -70,7 +80,6 @@ function calculateTable(data) {
       }
     })
   });
-  var table = []
   for (var key in map) {
     table.push(Object.assign(map[key], { player: key }));
   }
