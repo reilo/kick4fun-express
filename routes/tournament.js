@@ -1,9 +1,11 @@
 var fs = require('fs');
 
 exports.get = function (request, response, next) {
-  var filePath = './data/tournaments/' + request.params.id + ".json";
+  var tid = request.params.id;
+  var filePath = './data/tournaments/' + tid + ".json";
   var data = fs.readFileSync(filePath, 'utf-8');
   var json = JSON.parse(data);
+  json.id = tid;
   var table = calculateTable(json);
   json.table = table;
   response.status(200).send(json);
