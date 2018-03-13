@@ -14,23 +14,23 @@
                 {
                     "date": "2017-10-12",
                     "player": [ [ "Manfred", "Claus" ], [ "Lio", "Katja" ] ],
-                    "result": [ [ 10, 9 ], [ 10, 8 ], [ 5, 10 ] ]
+                    "sets": [ [ 10, 9 ], [ 10, 8 ], [ 5, 10 ] ]
                 },
                 {
                     "date": "2017-10-24",
                     "player": [ [ "Anton", "Kurt" ], [ "Ferda", "Herbert" ] ],
-                    "result": [ [ 10, 5 ], [ 10, 5 ], [ 10, 8 ] ],
+                    "sets": [ [ 10, 5 ], [ 10, 5 ], [ 10, 8 ] ],
                     "substitute": [ [ "Ferda", "Reinhard" ] ]
                 },
                 {
                     "date": "2017-10-16",
                     "player": [ [ "Hermann", "Stefano" ], [ "Reinhard", "Franz" ] ],
-                    "result": [ [ 10, 2 ], [ 9, 10 ], [ 10, 5 ] ]
+                    "sets": [ [ 10, 2 ], [ 9, 10 ], [ 10, 5 ] ]
                 },
                 {
                     "date": "2017-10-09",
                     "player": [ [ "Szabi", "Josef" ], [ "Anja", "Uschi" ] ],
-                    "result": [ [ 10, 7 ], [ 10, 4 ], [ 9, 10 ] ]
+                    "sets": [ [ 10, 7 ], [ 10, 4 ], [ 9, 10 ] ]
                 }
             ]
         },
@@ -41,22 +41,22 @@
                 {
                     "date": "2017-11-02",
                     "player": [ [ "Kurt", "Josef" ], [ "Szabi", "Anton" ] ],
-                    "result": [ [ 10, 1 ], [ 10, 3 ], [ 10, 2 ] ]
+                    "sets": [ [ 10, 1 ], [ 10, 3 ], [ 10, 2 ] ]
                 },
                 {
                     "date": "2017-10-19",
                     "player": [ [ "Manfred", "Hermann" ], [ "Stefano", "Claus" ] ],
-                    "result": [ [ 10, 9 ], [ 4, 10 ], [ 10, 4 ] ]
+                    "sets": [ [ 10, 9 ], [ 4, 10 ], [ 10, 4 ] ]
                 },
                 {
                     "date": "2017-10-17",
                     "player": [ [ "Uschi", "Herbert" ], [ "Ferda", "Anja" ] ],
-                    "result": [ [ 9, 10 ], [ 6, 10 ], [ 9, 10 ] ]
+                    "sets": [ [ 9, 10 ], [ 6, 10 ], [ 9, 10 ] ]
                 },
                 {
                     "date": "2017-10-23",
                     "player": [ [ "Reinhard", "Lio" ], [ "Katja", "Franz" ] ],
-                    "result": [ [ 6, 10 ], [ 10, 4 ], [ 8, 10 ] ]
+                    "sets": [ [ 6, 10 ], [ 10, 4 ], [ 8, 10 ] ]
                 }
             ]
         },
@@ -67,22 +67,22 @@
                 {
                     "date": "2017-11-14",
                     "player": [ [ "Anja", "Franz" ], [ "Katja", "Ferda" ] ],
-                    "result": [ [ 9, 10 ], [ 10, 9 ], [ 7, 10 ] ]
+                    "sets": [ [ 9, 10 ], [ 10, 9 ], [ 7, 10 ] ]
                 },
                 {
                     "date": "2017-11-13",
                     "player": [ [ "Lio", "Herbert" ], [ "Uschi", "Reinhard" ] ],
-                    "result": [ [ 10, 5 ], [ 10, 2 ], [ 10, 7 ] ]
+                    "sets": [ [ 10, 5 ], [ 10, 2 ], [ 10, 7 ] ]
                 },
                 {
                     "date": "2017-11-09",
                     "player": [ [ "Szabi", "Stefano" ], [ "Claus", "Anton" ] ],
-                    "result": [ [ 10, 4 ], [ 10, 1 ], [ 10, 4 ] ]
+                    "sets": [ [ 10, 4 ], [ 10, 1 ], [ 10, 4 ] ]
                 },
                 {
                     "date": "2017-11-16",
                     "player": [ [ "Manfred", "Kurt" ], [ "Josef", "Hermann" ] ],
-                    "result": [ [ 4, 10 ], [ 10, 2 ], [ 8, 10 ] ]
+                    "sets": [ [ 4, 10 ], [ 10, 2 ], [ 8, 10 ] ]
                 }
             ]
         },
@@ -93,22 +93,22 @@
                 {
                     "date": "2017-11-28",
                     "player": [ [ "Uschi", "Josef" ], [ "Hermann", "Reinhard" ] ],
-                    "result": [ [ 7, 10 ], [ 6, 10 ], [ 3, 10 ] ]
+                    "sets": [ [ 7, 10 ], [ 6, 10 ], [ 3, 10 ] ]
                 },
                 {
                     "date": "2017-11-23",
                     "player": [ [ "Ferda", "Anton" ], [ "Claus", "Katja" ] ],
-                    "result": [ [ 10, 7 ], [ 10, 4 ], [ 10, 6 ] ]
+                    "sets": [ [ 10, 7 ], [ 10, 4 ], [ 10, 6 ] ]
                 },
                 {
                     "date": "2017-11-20",
                     "player": [ [ "Manfred", "Lio" ], [ "Herbert", "Kurt" ] ],
-                    "result": [ [ 10, 6 ], [ 3, 10 ], [ 5, 10 ] ]
+                    "sets": [ [ 10, 6 ], [ 3, 10 ], [ 5, 10 ] ]
                 },
                 {
                     "date": "2017-11-27",
                     "player": [ [ "Stefano", "Franz" ], [ "Anja", "Szabi" ] ],
-                    "result": [ [ 10, 5 ], [ 10, 5 ], [ 10, 3 ] ]
+                    "sets": [ [ 10, 5 ], [ 10, 5 ], [ 10, 3 ] ]
                 }
             ]
         },
@@ -119,23 +119,23 @@
                 {
                     "date": "2017-12-04",
                     "player": [ [ "Manfred", "Stefano" ], [ "Franz", "Lio" ] ],
-                    "result": [ [ 10, 4 ], [ 10, 4 ], [ 6, 10 ] ]
+                    "sets": [ [ 10, 4 ], [ 10, 4 ], [ 6, 10 ] ]
                 },
                 {
                     "date": "2017-12-05",
                     "player": [ [ "Anja", "Herbert" ], [ "Kurt", "Szabi" ] ],
-                    "result": [ [ 8, 10 ], [ 8, 10 ], [ 10, 5 ] ]
+                    "sets": [ [ 8, 10 ], [ 8, 10 ], [ 10, 5 ] ]
                 },
                 {
                     "date": "2017-12-14",
                     "player": [ [ "Josef", "Anton" ], [ "Ferda", "Uschi" ] ],
-                    "result": [ [ 7, 10 ], [ 10, 4 ], [ 10, 9 ] ],
+                    "sets": [ [ 7, 10 ], [ 10, 4 ], [ 10, 9 ] ],
                     "substitute": [ [ "Ferda", "Reinhard" ] ]
                 },
                 {
                     "date": "2017-12-13",
                     "player": [ [ "Katja", "Reinhard" ], [ "Hermann", "Claus" ] ],
-                    "result": [ [ 7, 10 ], [ 6, 10 ], [ 10, 8 ] ]
+                    "sets": [ [ 7, 10 ], [ 6, 10 ], [ 10, 8 ] ]
                 }
             ]
         },
@@ -146,22 +146,22 @@
                 {
                     "date": "2018-01-10",
                     "player": [ [ "Herbert", "Reinhard" ], [ "Katja", "Anja" ] ],
-                    "result": [ [ 10, 9 ], [ 10, 2 ], [ 10, 9 ] ]
+                    "sets": [ [ 10, 9 ], [ 10, 2 ], [ 10, 9 ] ]
                 },
                 {
                     "date": "2018-01-08",
                     "player": [ [ "Manfred", "Josef" ], [ "Anton", "Stefano" ] ],
-                    "result": [ [ 8, 10 ], [ 6, 10 ], [ 7, 10 ] ]
+                    "sets": [ [ 8, 10 ], [ 6, 10 ], [ 7, 10 ] ]
                 },
                 {
                     "date": "2018-01-16",
                     "player": [ [ "Claus", "Szabi" ], [ "Kurt", "Hermann" ] ],
-                    "result": [ [ 1, 10 ], [ 5, 10 ], [ 6, 10 ] ]
+                    "sets": [ [ 1, 10 ], [ 5, 10 ], [ 6, 10 ] ]
                 },
                 {
                     "date": "2018-01-09",
                     "player": [ [ "Ferda", "Franz" ], [ "Lio", "Uschi" ] ],
-                    "result": [ [ 10, 6 ], [ 9, 10 ], [ 10, 3 ] ],
+                    "sets": [ [ 10, 6 ], [ 9, 10 ], [ 10, 3 ] ],
                     "substitute": [ [ "Ferda", "Reinhard" ] ]
                 }
             ]
@@ -173,22 +173,22 @@
                 {
                     "date": "2018-01-23",
                     "player": [ [ "Hermann", "Uschi" ], [ "Lio", "Kurt" ] ],
-                    "result": [ [ 3, 10 ], [ 10, 8 ], [ 1, 10 ] ]
+                    "sets": [ [ 3, 10 ], [ 10, 8 ], [ 1, 10 ] ]
                 },
                 {
                     "date": "2018-01-25",
                     "player": [ [ "Franz", "Szabi" ], [ "Claus", "Ferda" ] ],
-                    "result": [ [ 10, 4 ], [ 10, 2 ], [ 10, 5 ] ]
+                    "sets": [ [ 10, 4 ], [ 10, 2 ], [ 10, 5 ] ]
                 },
                 {
                     "date": "2018-01-15",
                     "player": [ [ "Katja", "Anton" ], [ "Stefano", "Anja" ] ],
-                    "result": [ [ 2, 10 ], [ 1, 10 ], [ 0, 10 ] ]
+                    "sets": [ [ 2, 10 ], [ 1, 10 ], [ 0, 10 ] ]
                 },
                 {
                     "date": "2018-01-26",
                     "player": [ [ "Manfred", "Herbert" ], [ "Reinhard", "Josef" ] ],
-                    "result": [ [ 7, 10 ], [ 7, 10 ], [ 3, 10 ] ]
+                    "sets": [ [ 7, 10 ], [ 7, 10 ], [ 3, 10 ] ]
                 }
             ]
         },
@@ -199,22 +199,22 @@
                 {
                     "date": "2018-01-31",
                     "player": [ [ "Claus", "Reinhard" ], [ "Josef", "Ferda" ] ],
-                    "result": [ [ 10, 5 ], [ 3, 10 ], [ 10, 9 ] ]
+                    "sets": [ [ 10, 5 ], [ 3, 10 ], [ 10, 9 ] ]
                 },
                 {
                     "date": "2018-02-12",
                     "player": [ [ "Kurt", "Anja" ], [ "Stefano", "Lio" ] ],
-                    "result": [ [ 10, 5 ], [ 6, 10 ], [ 9, 10 ] ]
+                    "sets": [ [ 10, 5 ], [ 6, 10 ], [ 9, 10 ] ]
                 },
                 {
                     "date": "2018-02-01",
                     "player": [ [ "Manfred", "Franz" ], [ "Szabi", "Herbert" ] ],
-                    "result": [ [ 6, 10 ], [ 8, 10 ], [ 10, 7 ] ]
+                    "sets": [ [ 6, 10 ], [ 8, 10 ], [ 10, 7 ] ]
                 },
                 {
                     "date": "2018-02-08",
                     "player": [ [ "Anton", "Uschi" ], [ "Hermann", "Katja" ] ],
-                    "result": [ [ 6, 10 ], [ 5, 10 ], [ 7, 10 ] ]
+                    "sets": [ [ 6, 10 ], [ 5, 10 ], [ 7, 10 ] ]
                 }
             ]
         },
@@ -225,22 +225,22 @@
                 {
                     "date": "2018-02-14",
                     "player": [ [ "Manfred", "Anton" ], [ "Uschi", "Franz" ] ],
-                    "result": [ [ 10, 6 ], [ 10, 6 ], [ 5, 10 ] ]
+                    "sets": [ [ 10, 6 ], [ 10, 6 ], [ 5, 10 ] ]
                 },
                 {
                     "date": "2018-02-20",
                     "player": [ [ "Hermann", "Szabi" ], [ "Herbert", "Katja" ] ],
-                    "result": [ [ 10, 5 ], [ 10, 4 ], [ 10, 3 ] ]
+                    "sets": [ [ 10, 5 ], [ 10, 4 ], [ 10, 3 ] ]
                 },
                 {
                     "date": "2018-02-21",
                     "player": [ [ "Reinhard", "Anja" ], [ "Kurt", "Claus" ] ],
-                    "result": [ [ 4, 10 ], [ 10, 6 ], [ 5, 10 ] ]
+                    "sets": [ [ 4, 10 ], [ 10, 6 ], [ 5, 10 ] ]
                 },
                 {
                     "date": "2018-02-22",
                     "player": [ [ "Lio", "Ferda" ], [ "Josef", "Stefano" ] ],
-                    "result": [ [ 7, 10 ], [ 3, 10 ], [ 4, 10 ] ]
+                    "sets": [ [ 7, 10 ], [ 3, 10 ], [ 4, 10 ] ]
                 }
             ]
         },
@@ -251,22 +251,22 @@
                 {
                     "date": "2018-03-01",
                     "player": [ [ "Szabi", "Ferda" ], [ "Lio", "Hermann" ] ],
-                    "result": [ [ 8, 10 ], [ 8, 10 ], [ 10, 4 ] ]
+                    "sets": [ [ 8, 10 ], [ 8, 10 ], [ 10, 4 ] ]
                 },
                 {
                     "date": "2018-03-06",
                     "player": [ [ "Manfred", "Reinhard" ], [ "Anja", "Anton" ] ],
-                    "result": [ [ 6, 10 ], [ 10, 5 ], [ 10, 4 ] ]
+                    "sets": [ [ 6, 10 ], [ 10, 5 ], [ 10, 4 ] ]
                 },
                 {
                     "date": "2018-02-28",
                     "player": [ [ "Stefano", "Katja" ], [ "Herbert", "Josef" ] ],
-                    "result": [ [ 10, 2 ], [ 10, 8 ], [ 10, 2 ] ]
+                    "sets": [ [ 10, 2 ], [ 10, 8 ], [ 10, 2 ] ]
                 },
                 {
                     "date": "2018-02-27",
                     "player": [ [ "Kurt", "Uschi" ], [ "Franz", "Claus" ] ],
-                    "result": [ [ 9, 10 ], [ 10, 6 ], [ 10, 9 ] ]
+                    "sets": [ [ 9, 10 ], [ 10, 6 ], [ 10, 9 ] ]
                 }
             ]
         },
@@ -280,7 +280,8 @@
                 },
                 {
                     "date": "2018-03-08",
-                    "player": [ [ "Uschi", "Katja" ], [ "Stefano", "Kurt" ] ]
+                    "player": [ [ "Uschi", "Katja" ], [ "Stefano", "Kurt" ] ],
+                    "sets": [ [ 2, 10 ], [ 5, 10 ], [ 1, 10 ] ]
                 },
                 {
                     "date": "2018-03-12",

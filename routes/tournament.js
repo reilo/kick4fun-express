@@ -40,8 +40,9 @@ function calculateTable(data) {
   }, {});
   data.rounds.forEach(round => {
     round.matches.forEach(match => {
-      if (match.result) {
-        var result = match.result.reduce((res, cur) => {
+      if (match.sets && match.sets.length) {
+        var numSets = match.sets.length;
+        var result = match.sets.reduce((res, cur) => {
           res[0] += cur[0] > cur[1] ? 1 : 0;
           res[1] += cur[0];
           res[2] += cur[1];
@@ -49,10 +50,10 @@ function calculateTable(data) {
         }, [0, 0, 0]);
         match.player[0].forEach(player => {
           map[player].matches += 1;
-          map[player].wins += result[0] > 1;
+          map[player].wins += result[0] > numSets/2;
           switch (data.counting) {
             case 'liga-1':
-              map[player].score += result[0] > 1;
+              map[player].score += result[0] > numSets/2;
               break;
             case 'liga-2':
             default:
@@ -64,19 +65,20 @@ function calculateTable(data) {
         });
         match.player[1].forEach(player => {
           map[player].matches += 1;
-          map[player].wins += result[0] < 2;
+          map[player].wins += result[0] < numSets/2;
           switch (data.counting) {
             case "liga-1":
-              map[player].score += result[0] < 2;
+              map[player].score += result[0] < numSets/2;
               break;
             case "liga-2":
             default:
-              map[player].score += 3 - result[0];
+              map[player].score += numSets - result[0];
               break;
           }
           map[player].goalsScored += result[2];
           map[player].goalsShipped += result[1];
         });
+        match.result = [result[0], numSets - result[0]];
       }
     })
   });

@@ -1,4 +1,2 @@
-Berechnung für 2 Sätze
-nicht gespielte Matches robuster checken
-Templates hinzufügen
+Templates eingeben
 alte Turniere eingeben
