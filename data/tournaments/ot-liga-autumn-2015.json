@@ -1,4 +1,106 @@
 {
+  "createdBy": "Reinhard",
+  "modifyDate": "2015-12-31",
   "name": "OpenText Herbstturnier 2015",
-  "type": "liga"
+  "type": "liga",
+  "counting": "liga-1",
+  "official": true,
+  "status": "completed",
+  "password": "",
+  "participants": [
+    "Katja",
+    "Ferda",
+    "Manfred",
+    "Lio",
+    "Claus",
+    "Reinhard",
+    "Stefano",
+    "Uschi"
+  ],
+  "rounds": [
+    {
+      "matches": [
+        {
+          "player": [ [ "Uschi", "Stefano" ], [ "Reinhard", "Katja" ] ],
+          "sets": [ [ 10, 6 ], [ 10, 8 ] ]
+        },
+        {
+          "player": [ [ "Ferda", "Claus" ], [ "Lio", "Manfred" ] ],
+          "sets": [ [ 4, 10 ], [ 10, 6 ], [ 5, 10 ] ]
+        }
+      ]
+    },
+    {
+      "matches": [
+        {
+          "player": [ [ "Stefano", "Lio" ], [ "Uschi", "Manfred" ] ],
+          "sets": [ [ 10, 0 ], [ 10, 4 ] ]
+        },
+        {
+          "player": [ [ "Katja", "Ferda" ], [ "Reinhard", "Claus" ] ],
+          "sets": [ [ 10, 8 ], [ 4, 10 ], [ 4, 10 ] ]
+        }
+      ]
+    },
+    {
+      "matches": [
+        {
+          "player": [ [ "Uschi", "Katja" ], [ "Manfred", "Ferda" ] ],
+          "sets": [ [ 1, 10 ], [ 6, 10 ] ]
+        },
+        {
+          "player": [ [ "Lio", "Claus" ], [ "Stefano", "Reinhard" ] ],
+          "sets": [ [ 2, 10 ], [ 5, 10 ] ]
+        }
+      ]
+    },
+    {
+      "matches": [
+        {
+          "player": [ [ "Manfred", "Stefano" ], [ "Ferda", "Reinhard" ] ],
+          "sets": [ [ 10, 5 ], [ 10, 2 ] ]
+        },
+        {
+          "player": [ [ "Claus", "Katja" ], [ "Lio", "Uschi" ] ],
+          "sets": [ [ 10, 6 ], [ 8, 10 ], [ 10, 7 ] ]
+        }
+      ]
+    },
+    {
+      "matches": [
+        {
+          "player": [ [ "Claus", "Manfred" ], [ "Katja", "Stefano" ] ],
+          "sets": [ [ 7, 10 ], [ 8, 10 ] ]
+        },
+        {
+          "player": [ [ "Reinhard", "Uschi" ], [ "Ferda", "Lio" ] ],
+          "sets": [ [ 6, 10 ], [ 4, 10 ] ]
+        }
+      ]
+    },
+    {
+      "matches": [
+        {
+          "player": [ [ "Katja", "Lio" ], [ "Stefano", "Ferda" ] ],
+          "sets": [ [ 8, 10 ], [ 4, 10 ] ]
+        },
+        {
+          "player": [ [ "Manfred", "Reinhard" ], [ "Uschi", "Claus" ] ],
+          "sets": [ [ 10, 6 ], [ 10, 3 ] ]
+        }
+      ]
+    },
+    {
+      "matches": [
+        {
+          "player": [ [ "Lio", "Reinhard" ], [ "Manfred", "Katja" ] ],
+          "sets": [ [ 10, 8 ], [ 10, 8 ] ]
+        },
+        {
+          "player": [ [ "Ferda", "Uschi" ], [ "Claus", "Stefano" ] ],
+          "sets": [ [ 10, 9 ], [ 3, 10 ], [ 10, 2 ] ]
+        }
+      ]
+    }
+  ]
 }

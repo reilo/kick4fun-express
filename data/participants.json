@@ -1,8 +1,76 @@
 {
   "participants": [
     {
+      "name": "Anja",
+      "fullName": "Anja Klement"
+    },
+    {
+      "name": "Anton",
+      "fullName": "Anton Schegg"
+    },
+    {
+      "name": "Claus",
+      "fullName": "Claus Ilmberger"
+    },
+    {
+      "name": "Ferda",
+      "fullName": "Ferdinand Prantl"
+    },
+    {
+      "name": "Franz",
+      "fullName": "Franz Pauthner"
+    },
+    {
+      "name": "Herbert",
+      "fullName": "Herbert Bock"
+    },
+    {
+      "name": "Hermann",
+      "fullName": "Hermann Löckert"
+    },
+    {
+      "name": "Josef",
+      "fullName": "Josef König"
+    },
+    {
+      "name": "Katja",
+      "fullName": "Katja Tribulowski"
+    },
+    {
+      "name": "Klaus",
+      "fullName": "Klaus Mutzbauer"
+    },
+    {
+      "name": "Kurt",
+      "fullName": "Kurt Rohde"
+    },
+    {
+      "name": "Lio",
+      "fullName": "Lionel Spohr"
+    },
+    {
+      "name": "Manfred",
+      "fullName": "Manfred Rottner"
+    },
+    {
+      "name": "Peter",
+      "fullName": "Peter Sturm"
+    },
+    {
       "name": "Reinhard",
       "fullName": "Reinhard Loch"
+    },
+    {
+      "name": "Stefano",
+      "fullName": "Stefano Lauricella"
+    },
+    {
+      "name": "Szabi",
+      "fullName": "Szabolcs Gyula Mile"
+    },
+    {
+      "name": "Uschi",
+      "fullName": "Ursula Lydia Schreyer"
     }
   ]
 }

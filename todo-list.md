@@ -1,2 +1,2 @@
-Templates eingeben
 alte Turniere eingeben
+Schreibfunktionen
