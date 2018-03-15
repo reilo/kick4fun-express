@@ -18,7 +18,14 @@ exports.list = function (request, response, next) {
     var id = cur.substr(0, cur.lastIndexOf('.'));
     var data = fs.readFileSync(dirPath + cur, 'utf-8');
     var json = JSON.parse(data);
-    let item = { id: id, name: json.name, type: json.type };
+    let item = {
+      id: id,
+      name: json.name,
+      type: json.type,
+      official: json.official,
+      status: json.status,
+      completedDate: json.completedDate
+    };
     const table = calculateTable(json);
     table && table.length && Object.assign(item, {
       ranking: table.reduce((res, cur, index) => {
@@ -52,10 +59,10 @@ function calculateTable(data) {
         }, [0, 0, 0]);
         match.player[0].forEach(player => {
           map[player].matches += 1;
-          map[player].wins += result[0] > numSets/2;
+          map[player].wins += result[0] > numSets / 2;
           switch (data.counting) {
             case 'liga-1':
-              map[player].score += result[0] > numSets/2;
+              map[player].score += result[0] > numSets / 2;
               break;
             case 'liga-2':
             default:
@@ -67,10 +74,10 @@ function calculateTable(data) {
         });
         match.player[1].forEach(player => {
           map[player].matches += 1;
-          map[player].wins += result[0] < numSets/2;
+          map[player].wins += result[0] < numSets / 2;
           switch (data.counting) {
             case "liga-1":
-              map[player].score += result[0] < numSets/2;
+              map[player].score += result[0] < numSets / 2;
               break;
             case "liga-2":
             default:

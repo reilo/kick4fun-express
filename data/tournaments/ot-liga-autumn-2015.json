@@ -1,11 +1,11 @@
 {
   "createdBy": "Reinhard",
-  "modifyDate": "2015-12-31",
   "name": "OpenText Herbstturnier 2015",
   "type": "liga",
   "counting": "liga-1",
   "official": true,
   "status": "completed",
+  "completedDate": "2015-12-31",
   "password": "",
   "participants": [
     "Katja",

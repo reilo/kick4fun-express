@@ -1,5 +1,224 @@
 {
-  "modifyDate": "2016-06-30",
+  "createdBy": "Reinhard",
   "name": "OpenText Frühjahrturnier 2016",
-  "type": "liga"
+  "type": "liga",
+  "counting": "liga-2",
+  "official": true,
+  "status": "completed",
+  "completedDate": "2016-06-30",
+  "password": "",
+  "participants": [
+    "Anton",
+    "Katja",
+    "Ferda",
+    "Manfred",
+    "Lio",
+    "Claus",
+    "Reinhard",
+    "Stefano",
+    "Uschi",
+    "Anja",
+    "Peter",
+    "Szabi"
+  ],
+  "rounds": [
+    {
+      "startDate": "2016-01-18",
+      "endDate": "2016-01-22",
+      "matches": [
+        {
+          "player": [ [ "Anton", "Katja" ], [ "Manfred", "Claus" ] ],
+          "sets": [ [ 9, 10 ], [ 9, 10 ], [ 10, 4 ] ]
+        },
+        {
+          "player": [ [ "Anja", "Lio" ], [ "Szabi", "Ferda" ] ],
+          "sets": [ [ 6, 10 ], [ 8, 10 ], [ 7, 10 ] ]
+        },
+        {
+          "player": [ [ "Uschi", "Reinhard" ], [ "Peter", "Stefano" ] ],
+          "sets": [ [ 3, 10 ], [ 7, 10 ], [ 9, 10 ] ]
+        }
+      ]
+    },
+    {
+      "startDate": "2016-01-25",
+      "endDate": "2016-01-29",
+      "matches": [
+        {
+          "player": [ [ "Anja", "Peter" ], [ "Anton", "Stefano" ] ],
+          "sets": [ [ 2, 10 ], [ 2, 10 ], [ 6, 10 ] ]
+        },
+        {
+          "player": [ [ "Reinhard", "Manfred" ], [ "Katja", "Uschi" ] ],
+          "sets": [ [ 10, 3 ], [ 10, 7 ], [ 9, 10 ] ]
+        },
+        {
+          "player": [ [ "Ferda", "Claus" ], [ "Lio", "Szabi" ] ],
+          "sets": [ [ 9, 10 ], [ 5, 10 ], [ 10, 3 ] ]
+        }
+      ]
+    },
+    {
+      "startDate": "2016-02-01",
+      "endDate": "2016-02-05",
+      "matches": [
+        {
+          "player": [ [ "Manfred", "Lio" ], [ "Claus", "Reinhard" ] ],
+          "sets": [ [ 5, 10 ], [ 3, 10 ], [ 6, 10 ] ]
+        },
+        {
+          "player": [ [ "Stefano", "Szabi" ], [ "Peter", "Anton" ] ],
+          "sets": [ [ 9, 10 ], [ 7, 10 ], [ 10, 7 ] ]
+        },
+        {
+          "player": [ [ "Anja", "Katja" ], [ "Ferda", "Uschi" ] ],
+          "sets": [ [ 6, 10 ], [ 10, 7 ], [ 4, 10 ] ]
+        }
+      ]
+    },
+    {
+      "startDate": "2016-02-15",
+      "endDate": "2016-02-19",
+      "matches": [
+        {
+          "player": [ [ "Uschi", "Anton" ], [ "Katja", "Ferda" ] ],
+          "sets": [ [ 10, 7 ], [ 10, 6 ], [ 5, 10 ] ]
+        },
+        {
+          "player": [ [ "Anja", "Claus" ], [ "Stefano", "Reinhard" ] ],
+          "sets": [ [ 3, 10 ], [ 3, 10 ], [ 1, 10 ] ]
+        },
+        {
+          "player": [ [ "Lio", "Peter" ], [ "Szabi", "Manfred" ] ],
+          "sets": [ [ 10, 9 ], [ 8, 10 ], [ 10, 6 ] ]
+        }
+      ]
+    },
+    {
+      "startDate": "2016-02-29",
+      "endDate": "2016-03-04",
+      "matches": [
+        {
+          "player": [ [ "Anja", "Szabi" ], [ "Uschi", "Manfred" ] ],
+          "sets": [ [ 10, 4 ], [ 10, 5 ], [ 10, 6 ] ]
+        },
+        {
+          "player": [ [ "Peter", "Katja" ], [ "Anton", "Lio" ] ],
+          "sets": [ [ 0, 10 ], [ 9, 10 ], [ 3, 10 ] ]
+        },
+        {
+          "player": [ [ "Reinhard", "Ferda" ], [ "Claus", "Stefano" ] ],
+          "sets": [ [ 7, 10 ], [ 10, 9 ], [ 10, 7 ] ]
+        }
+      ]
+    },
+    {
+      "startDate": "2016-03-07",
+      "endDate": "2016-03-11",
+      "matches": [
+        {
+          "player": [ [ "Katja", "Claus" ], [ "Ferda", "Peter" ] ],
+          "sets": [ [ 5, 10 ], [ 6, 10 ], [ 2, 10 ] ]
+        },
+        {
+          "player": [ [ "Manfred", "Stefano" ], [ "Szabi", "Uschi" ] ],
+          "sets": [ [ 10, 1 ], [ 10, 1 ], [ 10, 2 ] ]
+        },
+        {
+          "player": [ [ "Anja", "Anton" ], [ "Reinhard", "Lio" ] ],
+          "sets": [ [ 5, 10 ], [ 8, 10 ], [ 7, 10 ] ]
+        }
+      ]
+    },
+    {
+      "startDate": "2016-03-14",
+      "endDate": "2016-03-18",
+      "matches": [
+        {
+          "player": [ [ "Lio", "Uschi" ], [ "Anton", "Reinhard" ] ],
+          "sets": [ [ 4, 10 ], [ 8, 10 ], [ 6, 10 ] ]
+        },
+        {
+          "player": [ [ "Anja", "Ferda" ], [ "Manfred", "Peter" ] ],
+          "sets": [ [ 2, 10 ], [ 10, 5 ], [ 10, 9 ] ]
+        },
+        {
+          "player": [ [ "Claus", "Szabi" ], [ "Stefano", "Katja" ] ],
+          "sets": [ [ 4, 10 ], [ 10, 4 ], [ 10, 9 ] ]
+        }
+      ]
+    },
+    {
+      "startDate": "2016-04-04",
+      "endDate": "2016-04-08",
+      "matches": [
+        {
+          "player": [ [ "Anja", "Stefano" ], [ "Lio", "Katja" ] ],
+          "sets": [ [ 10, 3 ], [ 10, 7 ], [ 10, 0 ] ]
+        },
+        {
+          "player": [ [ "Szabi", "Anton" ], [ "Uschi", "Claus" ] ],
+          "sets": [ [ 1, 10 ], [ 10, 4 ], [ 10, 3 ] ]
+        },
+        {
+          "player": [ [ "Peter", "Reinhard" ], [ "Ferda", "Manfred" ] ],
+          "sets": [ [ 10, 8 ], [ 10, 8 ], [ 10, 9 ] ]
+        }
+      ]
+    },
+    {
+      "startDate": "2016-04-11",
+      "endDate": "2016-04-15",
+      "matches": [
+        {
+          "player": [ [ "Anton", "Ferda" ], [ "Reinhard", "Szabi" ] ],
+          "sets": [ [ 6, 10 ], [ 10, 8 ], [ 2, 10 ] ]
+        },
+        {
+          "player": [ [ "Katja", "Manfred" ], [ "Stefano", "Lio" ] ],
+          "sets": [ [ 3, 10 ], [ 7, 10 ], [ 7, 10 ] ]
+        },
+        {
+          "player": [ [ "Anja", "Uschi" ], [ "Peter", "Claus" ] ],
+          "sets": [ [ 9, 10 ], [ 8, 10 ], [ 10, 5 ] ]
+        }
+      ]
+    },
+    {
+      "startDate": "2016-04-18",
+      "endDate": "2016-04-22",
+      "matches": [
+        {
+          "player": [ [ "Claus", "Lio" ], [ "Uschi", "Peter" ] ],
+          "sets": [ [ 10, 3 ], [ 10, 5 ], [ 10, 6 ] ]
+        },
+        {
+          "player": [ [ "Anja", "Reinhard" ], [ "Katja", "Szabi" ] ],
+          "sets": [ [ 10, 5 ], [ 10, 9 ], [ 9, 10 ] ]
+        },
+        {
+          "player": [ [ "Ferda", "Stefano" ], [ "Manfred", "Anton" ] ],
+          "sets": [ [ 10, 5 ], [ 10, 6 ], [ 5, 10 ] ]
+        }
+      ]
+    },
+    {
+      "startDate": "2016-04-25",
+      "endDate": "2016-04-29",
+      "matches": [
+        {
+          "player": [ [ "Anja", "Manfred" ], [ "Claus", "Anton" ] ],
+          "sets": [ [ 5, 10 ], [ 10, 7 ], [ 10, 5 ] ]
+        },
+        {
+          "player": [ [ "Stefano", "Uschi" ], [ "Lio", "Ferda" ] ],
+          "sets": [ [ 3, 10 ], [ 7, 10 ], [ 8, 10 ] ]
+        },
+        {
+          "player": [ [ "Szabi", "Peter" ], [ "Reinhard", "Katja" ] ],
+          "sets": [ [ 10, 7 ], [ 10, 7 ], [ 10, 7 ] ]
+        }
+      ]
+    }
+  ]
 }
