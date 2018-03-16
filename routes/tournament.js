@@ -15,25 +15,28 @@ exports.list = function (request, response, next) {
   var dirPath = './data/tournaments/';
   var files = fs.readdirSync(dirPath);
   var tournaments = files.reduce((res, cur) => {
-    var id = cur.substr(0, cur.lastIndexOf('.'));
-    var data = fs.readFileSync(dirPath + cur, 'utf-8');
-    var json = JSON.parse(data);
-    let item = {
-      id: id,
-      name: json.name,
-      type: json.type,
-      official: json.official,
-      status: json.status,
-      completedDate: json.completedDate
-    };
-    const table = calculateTable(json);
-    table && table.length && Object.assign(item, {
-      ranking: table.reduce((res, cur, index) => {
-        index < 3 && res.push(cur.player);
-        return res;
-      }, [])
-    });
-    res.push(item);
+    var idx = cur.indexOf(".json", cur.length - 5);
+    if (idx !== -1) {
+      var id = cur.substr(0, idx);
+      var data = fs.readFileSync(dirPath + cur, 'utf-8');
+      var json = JSON.parse(data);
+      let item = {
+        id: id,
+        name: json.name,
+        type: json.type,
+        official: json.official,
+        status: json.status,
+        completedDate: json.completedDate
+      };
+      const table = calculateTable(json);
+      table && table.length && Object.assign(item, {
+        ranking: table.reduce((res, cur, index) => {
+          index < 3 && res.push(cur.player);
+          return res;
+        }, [])
+      });
+      res.push(item);
+    }
     return res;
   }, []);
   response.status(200).send(tournaments);
@@ -106,3 +109,17 @@ function calculateTable(data) {
   });
   return table;
 }
+
+exports.update = function (request, response, next) {
+  var tid = request.params.id;
+  var filePath = './data/tournaments/' + tid + ".json";
+  var data = fs.readFileSync(filePath, 'utf-8');
+  var json = JSON.parse(data);
+  //...
+  response.status(200).send(json);
+};
+
+exports.create = function (request, response, next) {
+  //...
+  response.status(200).send(json);
+};

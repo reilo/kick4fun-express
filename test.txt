@@ -6,3 +6,10 @@ http://localhost:3001/api/kickerliga/templates
 
 http://localhost:3001/api/kickerliga/tournaments/ot-liga-2017-2018
 
+PUT http://localhost:3001/api/kickerliga/tournaments/ot-liga-2017-2018/rounds/1/matches/1 HTTP/1.1
+content-type: application/json
+
+{
+    "sets": [[ 10, 9 ], [ 4, 10 ], [ 10, 4 ]],
+    "time": "Wed, 21 Oct 2015 18:27:50 GMT"
+}

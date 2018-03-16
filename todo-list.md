@@ -1,2 +1,2 @@
 alte Turniere eingeben
-Schreibfunktionen
+Umstellen auf Mongo
