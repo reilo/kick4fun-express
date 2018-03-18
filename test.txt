@@ -1,12 +1,31 @@
 http://localhost:3001/api/kickerliga
  
+http://localhost:3001/api/kickerliga/players
+
 http://localhost:3001/api/kickerliga/tournaments
 
 http://localhost:3001/api/kickerliga/templates
 
+http://localhost:3001/api/kickerliga/templates/ip-pure_20
+
 http://localhost:3001/api/kickerliga/tournaments/ot-liga-2017-2018
 
-PUT http://localhost:3001/api/kickerliga/tournaments/ot-liga-2017-2018/rounds/1/matches/1 HTTP/1.1
+POST http://localhost:3001/api/kickerliga/tournaments
+content-type: application/json
+
+{
+  "id": "test1",
+  "name": "Mein kleine Liga",
+  "template": "ip-pure_08",
+  "participants": ["Egon", "Fritz", "Sepp", "Jupp", "Reini", "Günni", "Pete", "Rob"],
+  "startDate": "2018-06-01",
+  "interval": 14,
+  "official": true,
+  "createdBy": "Reinhard",
+  "password": ""
+}
+
+PUT http://localhost:3001xxx/api/kickerliga/tournaments/ot-liga-2017-2018/rounds/1/matches/1 HTTP/1.1
 content-type: application/json
 
 {

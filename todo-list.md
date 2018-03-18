@@ -1,2 +1,5 @@
+Liga neu erstellen
 alte Turniere eingeben
-Umstellen auf Mongo
+
+oprtional:
+Umstellen auf Mongo mit Model

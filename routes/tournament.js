@@ -120,6 +120,26 @@ exports.update = function (request, response, next) {
 };
 
 exports.create = function (request, response, next) {
-  //...
-  response.status(200).send(json);
+  var body = request.body;
+  var tid = body.id;
+  var tournament = Object.assign({}, {
+    createdBy: body.createdBy,
+    name: body.name,
+    type: "liga",
+    counting: "liga-2",
+    official: body.official,
+    status: "progress",
+    password: body.password,
+    participants: body.participants
+  });
+  var templateConfigPath = './data/templates/templateConfig.json';
+  var templateConfigData = fs.readFileSync(templateConfigPath, 'utf-8');
+  var jsonTemplateConfig = JSON.parse(templateConfigData);
+  var templateConfigEntry = jsonTemplateConfig.find(template => template.id === body.template);
+  var templatePath = './data/templates/' + templateConfigEntry.fileName;
+  var template = fs.readFileSync(templatePath, 'utf-8');
+  var lines = template.split('\n');
+  console.log(lines.length);
+  console.log(tournament);
+  response.status(200).send(tournament);
 };

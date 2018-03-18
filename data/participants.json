@@ -1,76 +1,110 @@
-{
-  "participants": [
-    {
-      "name": "Anja",
-      "fullName": "Anja Klement"
-    },
-    {
-      "name": "Anton",
-      "fullName": "Anton Schegg"
-    },
-    {
-      "name": "Claus",
-      "fullName": "Claus Ilmberger"
-    },
-    {
-      "name": "Ferda",
-      "fullName": "Ferdinand Prantl"
-    },
-    {
-      "name": "Franz",
-      "fullName": "Franz Pauthner"
-    },
-    {
-      "name": "Herbert",
-      "fullName": "Herbert Bock"
-    },
-    {
-      "name": "Hermann",
-      "fullName": "Hermann Löckert"
-    },
-    {
-      "name": "Josef",
-      "fullName": "Josef König"
-    },
-    {
-      "name": "Katja",
-      "fullName": "Katja Tribulowski"
-    },
-    {
-      "name": "Klaus",
-      "fullName": "Klaus Mutzbauer"
-    },
-    {
-      "name": "Kurt",
-      "fullName": "Kurt Rohde"
-    },
-    {
-      "name": "Lio",
-      "fullName": "Lionel Spohr"
-    },
-    {
-      "name": "Manfred",
-      "fullName": "Manfred Rottner"
-    },
-    {
-      "name": "Peter",
-      "fullName": "Peter Sturm"
-    },
-    {
-      "name": "Reinhard",
-      "fullName": "Reinhard Loch"
-    },
-    {
-      "name": "Stefano",
-      "fullName": "Stefano Lauricella"
-    },
-    {
-      "name": "Szabi",
-      "fullName": "Szabolcs Gyula Mile"
-    },
-    {
-      "name": "Uschi",
-      "fullName": "Ursula Lydia Schreyer"
-    }
-  ]
-}
+[
+  {
+    "name": "Anja",
+    "fullName": "Anja Klement",
+    "active": true,
+    "real": true
+  },
+  {
+    "name": "Anton",
+    "fullName": "Anton Schegg",
+    "active": true,
+    "real": true
+  },
+  {
+    "name": "Claus",
+    "fullName": "Claus Ilmberger",
+    "active": true,
+    "real": true
+  },
+  {
+    "name": "Ferda",
+    "fullName": "Ferdinand Prantl",
+    "active": true,
+    "real": true
+  },
+  {
+    "name": "Franz",
+    "fullName": "Franz Pauthner",
+    "active": true,
+    "real": true
+  },
+  {
+    "name": "Herbert",
+    "fullName": "Herbert Bock",
+    "active": true,
+    "real": true
+  },
+  {
+    "name": "Hermann",
+    "fullName": "Hermann Löckert",
+    "active": true,
+    "real": true
+  },
+  {
+    "name": "Josef",
+    "fullName": "Josef König",
+    "active": true,
+    "real": true
+  },
+  {
+    "name": "Katja",
+    "fullName": "Katja Tribulowski",
+    "active": true,
+    "real": true
+  },
+  {
+    "name": "Klaus",
+    "fullName": "Klaus Mutzbauer",
+    "active": false,
+    "real": true
+  },
+  {
+    "name": "Kurt",
+    "fullName": "Kurt Rohde",
+    "active": true,
+    "real": true
+  },
+  {
+    "name": "Lio",
+    "fullName": "Lionel Spohr",
+    "active": true,
+    "real": true
+  },
+  {
+    "name": "Manfred",
+    "fullName": "Manfred Rottner",
+    "active": true,
+    "real": true
+  },
+  {
+    "name": "Peter",
+    "fullName": "Peter Sturm",
+    "active": false,
+    "real": true
+  },
+  {
+    "name": "Reinhard",
+    "fullName": "Reinhard Loch",
+    "active": true,
+    "real": true
+  },
+  {
+    "name": "Stefano",
+    "fullName": "Stefano Lauricella",
+    "active": true,
+    "real": true
+  },
+  {
+    "name": "Szabi",
+    "fullName": "Szabolcs Gyula Mile",
+    "active": true,
+    "real": true
+  },
+  {
+    "name": "Uschi",
+    "fullName": "Ursula Lydia Schreyer",
+    "active": true,
+    "real": true
+  }
+]
