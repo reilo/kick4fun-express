@@ -1,4 +1,3 @@
-Liga neu erstellen
 alte Turniere eingeben
 
 oprtional:

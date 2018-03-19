@@ -12,7 +12,7 @@
     "type": "liga",
     "name": "Liga mit 5 Teilnehmern",
     "description": "Jeder mit jedem gegen jeden. 5 Runden mit jeweils einem Spiel. Jeder Spieler setzt eine Runde aus.",
-    "players": 4,
+    "players": 5,
     "fileName": "ip-pure_05.txt"
   },
   {
