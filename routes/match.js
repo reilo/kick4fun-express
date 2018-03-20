@@ -13,7 +13,7 @@ exports.update = function (request, response, next) {
     fs.writeFileSync(filePathBak, data, 'utf-8');
     Object.assign(json.rounds[rid].matches[mid], { date: body.date, sets: body.sets });
     fs.writeFileSync(filePath, JSON.stringify(json), 'utf-8');
-    response.sendStatus(200);
+    response.status(200).send(json);
   } else {
     response.sendStatus(401);
   }

@@ -1,7 +1,6 @@
 var fs = require('fs');
 
 exports.list = function (request, response, next) {
-  console.log("enter");
   var filePath = './data/participants.json';
   var data = fs.readFileSync(filePath, 'utf-8');
   var json = JSON.parse(data);

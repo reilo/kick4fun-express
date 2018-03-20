@@ -174,6 +174,8 @@ exports.create = function (request, response, next) {
   const filePath = './data/tournaments/' + body.id + ".json";
   if (!fs.existsSync(filePath)) {
     fs.writeFileSync(filePath, JSON.stringify(tournament), 'utf-8');
+    response.status(200).send(tournament);
+  } else {
+    response.sendStatus(400);
   }
-  response.sendStatus(200);
 };

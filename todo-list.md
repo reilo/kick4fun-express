@@ -1,4 +1,4 @@
 alte Turniere eingeben
 
-oprtional:
+optional:
 Umstellen auf Mongo mit Model
