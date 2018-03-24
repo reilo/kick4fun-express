@@ -1,17 +1,26 @@
 var fs = require('fs');
+var utils = require('../utils');
 
 exports.get = function (request, response, next) {
   var tid = request.params.id;
-  var filePath = './data/tournaments/' + tid + ".json";
-  var data = fs.readFileSync(filePath, 'utf-8');
-  var json = JSON.parse(data);
-  json.id = tid;
-  var table = calculateTable(json);
-  json.table = table;
-  response.status(200).send(json);
+  var tournamentPath = './data/tournaments/' + tid + ".json";
+  var tdata = fs.readFileSync(tournamentPath, 'utf-8');
+  var pjson = utils.getParticipants();
+  tdata = pjson.reduce((data, item) =>
+    data.replace(new RegExp("\"" + item.id + "\"", "g"), "\"" + item.name + "\"")
+    , tdata);
+  var tjson = JSON.parse(tdata);
+  tjson.id = tid;
+  var table = calculateTable(tjson);
+  tjson.table = table;
+  response.status(200).send(tjson);
 };
 
 exports.list = function (request, response, next) {
+  var pjson = utils.getParticipants();
+  var pmap = pjson.reduce((res, cur) =>
+    Object.assign(res, { [cur.id]: cur.name })
+    , {});
   var dirPath = './data/tournaments/';
   var files = fs.readdirSync(dirPath);
   var tournaments = files.reduce((res, cur) => {
@@ -32,7 +41,7 @@ exports.list = function (request, response, next) {
       const table = calculateTable(json);
       table && table.length && Object.assign(item, {
         ranking: table.reduce((res, cur, index) => {
-          index < 3 && res.push(cur.player);
+          index < 3 && res.push(pmap[cur.player]);
           return res;
         }, [])
       });

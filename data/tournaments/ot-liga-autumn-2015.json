@@ -1,5 +1,5 @@
 {
-  "createdBy": "Reinhard",
+  "createdBy": "rl",
   "name": "OpenText Herbstturnier 2015",
   "type": "liga",
   "counting": "liga-1",
@@ -8,24 +8,24 @@
   "completedDate": "2015-12-31",
   "password": "",
   "participants": [
-    "Katja",
-    "Ferda",
-    "Manfred",
-    "Lio",
-    "Claus",
-    "Reinhard",
-    "Stefano",
-    "Uschi"
+    "kt",
+    "fp",
+    "mr",
+    "ls",
+    "ci",
+    "rl",
+    "sl",
+    "us"
   ],
   "rounds": [
     {
       "matches": [
         {
-          "player": [ [ "Uschi", "Stefano" ], [ "Reinhard", "Katja" ] ],
+          "player": [ [ "us", "sl" ], [ "rl", "kt" ] ],
           "sets": [ [ 10, 6 ], [ 10, 8 ] ]
         },
         {
-          "player": [ [ "Ferda", "Claus" ], [ "Lio", "Manfred" ] ],
+          "player": [ [ "fp", "ci" ], [ "ls", "mr" ] ],
           "sets": [ [ 4, 10 ], [ 10, 6 ], [ 5, 10 ] ]
         }
       ]
@@ -33,11 +33,11 @@
     {
       "matches": [
         {
-          "player": [ [ "Stefano", "Lio" ], [ "Uschi", "Manfred" ] ],
+          "player": [ [ "sl", "ls" ], [ "us", "mr" ] ],
           "sets": [ [ 10, 0 ], [ 10, 4 ] ]
         },
         {
-          "player": [ [ "Katja", "Ferda" ], [ "Reinhard", "Claus" ] ],
+          "player": [ [ "kt", "fp" ], [ "rl", "ci" ] ],
           "sets": [ [ 10, 8 ], [ 4, 10 ], [ 4, 10 ] ]
         }
       ]
@@ -45,11 +45,11 @@
     {
       "matches": [
         {
-          "player": [ [ "Uschi", "Katja" ], [ "Manfred", "Ferda" ] ],
+          "player": [ [ "us", "kt" ], [ "mr", "fp" ] ],
           "sets": [ [ 1, 10 ], [ 6, 10 ] ]
         },
         {
-          "player": [ [ "Lio", "Claus" ], [ "Stefano", "Reinhard" ] ],
+          "player": [ [ "ls", "ci" ], [ "sl", "rl" ] ],
           "sets": [ [ 2, 10 ], [ 5, 10 ] ]
         }
       ]
@@ -57,11 +57,11 @@
     {
       "matches": [
         {
-          "player": [ [ "Manfred", "Stefano" ], [ "Ferda", "Reinhard" ] ],
+          "player": [ [ "mr", "sl" ], [ "fp", "rl" ] ],
           "sets": [ [ 10, 5 ], [ 10, 2 ] ]
         },
         {
-          "player": [ [ "Claus", "Katja" ], [ "Lio", "Uschi" ] ],
+          "player": [ [ "ci", "kt" ], [ "ls", "us" ] ],
           "sets": [ [ 10, 6 ], [ 8, 10 ], [ 10, 7 ] ]
         }
       ]
@@ -69,11 +69,11 @@
     {
       "matches": [
         {
-          "player": [ [ "Claus", "Manfred" ], [ "Katja", "Stefano" ] ],
+          "player": [ [ "ci", "mr" ], [ "kt", "sl" ] ],
           "sets": [ [ 7, 10 ], [ 8, 10 ] ]
         },
         {
-          "player": [ [ "Reinhard", "Uschi" ], [ "Ferda", "Lio" ] ],
+          "player": [ [ "rl", "us" ], [ "fp", "ls" ] ],
           "sets": [ [ 6, 10 ], [ 4, 10 ] ]
         }
       ]
@@ -81,11 +81,11 @@
     {
       "matches": [
         {
-          "player": [ [ "Katja", "Lio" ], [ "Stefano", "Ferda" ] ],
+          "player": [ [ "kt", "ls" ], [ "sl", "fp" ] ],
           "sets": [ [ 8, 10 ], [ 4, 10 ] ]
         },
         {
-          "player": [ [ "Manfred", "Reinhard" ], [ "Uschi", "Claus" ] ],
+          "player": [ [ "mr", "rl" ], [ "us", "ci" ] ],
           "sets": [ [ 10, 6 ], [ 10, 3 ] ]
         }
       ]
@@ -93,11 +93,11 @@
     {
       "matches": [
         {
-          "player": [ [ "Lio", "Reinhard" ], [ "Manfred", "Katja" ] ],
+          "player": [ [ "ls", "rl" ], [ "mr", "kt" ] ],
           "sets": [ [ 10, 8 ], [ 10, 8 ] ]
         },
         {
-          "player": [ [ "Ferda", "Uschi" ], [ "Claus", "Stefano" ] ],
+          "player": [ [ "fp", "us" ], [ "ci", "sl" ] ],
           "sets": [ [ 10, 9 ], [ 3, 10 ], [ 10, 2 ] ]
         }
       ]

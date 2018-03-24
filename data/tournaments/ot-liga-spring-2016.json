@@ -1,5 +1,5 @@
 {
-  "createdBy": "Reinhard",
+  "createdBy": "rl",
   "name": "OpenText Frühjahrsturnier 2016",
   "type": "liga",
   "counting": "liga-2",
@@ -8,18 +8,18 @@
   "completedDate": "2016-06-30",
   "password": "",
   "participants": [
-    "Anton",
-    "Katja",
-    "Ferda",
-    "Manfred",
-    "Lio",
-    "Claus",
-    "Reinhard",
-    "Stefano",
-    "Uschi",
-    "Anja",
-    "Peter",
-    "Szabi"
+    "as",
+    "kt",
+    "fp",
+    "mr",
+    "ls",
+    "ci",
+    "rl",
+    "sl",
+    "us",
+    "ak",
+    "ps",
+    "sm"
   ],
   "rounds": [
     {
@@ -27,15 +27,15 @@
       "endDate": "2016-01-22",
       "matches": [
         {
-          "player": [ [ "Anton", "Katja" ], [ "Manfred", "Claus" ] ],
+          "player": [ [ "as", "kt" ], [ "mr", "ci" ] ],
           "sets": [ [ 9, 10 ], [ 9, 10 ], [ 10, 4 ] ]
         },
         {
-          "player": [ [ "Anja", "Lio" ], [ "Szabi", "Ferda" ] ],
+          "player": [ [ "ak", "ls" ], [ "sm", "fp" ] ],
           "sets": [ [ 6, 10 ], [ 8, 10 ], [ 7, 10 ] ]
         },
         {
-          "player": [ [ "Uschi", "Reinhard" ], [ "Peter", "Stefano" ] ],
+          "player": [ [ "us", "rl" ], [ "ps", "sl" ] ],
           "sets": [ [ 3, 10 ], [ 7, 10 ], [ 9, 10 ] ]
         }
       ]
@@ -45,15 +45,15 @@
       "endDate": "2016-01-29",
       "matches": [
         {
-          "player": [ [ "Anja", "Peter" ], [ "Anton", "Stefano" ] ],
+          "player": [ [ "ak", "ps" ], [ "as", "sl" ] ],
           "sets": [ [ 2, 10 ], [ 2, 10 ], [ 6, 10 ] ]
         },
         {
-          "player": [ [ "Reinhard", "Manfred" ], [ "Katja", "Uschi" ] ],
+          "player": [ [ "rl", "mr" ], [ "kt", "us" ] ],
           "sets": [ [ 10, 3 ], [ 10, 7 ], [ 9, 10 ] ]
         },
         {
-          "player": [ [ "Ferda", "Claus" ], [ "Lio", "Szabi" ] ],
+          "player": [ [ "fp", "ci" ], [ "ls", "sm" ] ],
           "sets": [ [ 9, 10 ], [ 5, 10 ], [ 10, 3 ] ]
         }
       ]
@@ -63,15 +63,15 @@
       "endDate": "2016-02-05",
       "matches": [
         {
-          "player": [ [ "Manfred", "Lio" ], [ "Claus", "Reinhard" ] ],
+          "player": [ [ "mr", "ls" ], [ "ci", "rl" ] ],
           "sets": [ [ 5, 10 ], [ 3, 10 ], [ 6, 10 ] ]
         },
         {
-          "player": [ [ "Stefano", "Szabi" ], [ "Peter", "Anton" ] ],
+          "player": [ [ "sl", "sm" ], [ "ps", "as" ] ],
           "sets": [ [ 9, 10 ], [ 7, 10 ], [ 10, 7 ] ]
         },
         {
-          "player": [ [ "Anja", "Katja" ], [ "Ferda", "Uschi" ] ],
+          "player": [ [ "ak", "kt" ], [ "fp", "us" ] ],
           "sets": [ [ 6, 10 ], [ 10, 7 ], [ 4, 10 ] ]
         }
       ]
@@ -81,15 +81,15 @@
       "endDate": "2016-02-19",
       "matches": [
         {
-          "player": [ [ "Uschi", "Anton" ], [ "Katja", "Ferda" ] ],
+          "player": [ [ "us", "as" ], [ "kt", "fp" ] ],
           "sets": [ [ 10, 7 ], [ 10, 6 ], [ 5, 10 ] ]
         },
         {
-          "player": [ [ "Anja", "Claus" ], [ "Stefano", "Reinhard" ] ],
+          "player": [ [ "ak", "ci" ], [ "sl", "rl" ] ],
           "sets": [ [ 3, 10 ], [ 3, 10 ], [ 1, 10 ] ]
         },
         {
-          "player": [ [ "Lio", "Peter" ], [ "Szabi", "Manfred" ] ],
+          "player": [ [ "ls", "ps" ], [ "sm", "mr" ] ],
           "sets": [ [ 10, 9 ], [ 8, 10 ], [ 10, 6 ] ]
         }
       ]
@@ -99,15 +99,15 @@
       "endDate": "2016-03-04",
       "matches": [
         {
-          "player": [ [ "Anja", "Szabi" ], [ "Uschi", "Manfred" ] ],
+          "player": [ [ "ak", "sm" ], [ "us", "mr" ] ],
           "sets": [ [ 10, 4 ], [ 10, 5 ], [ 10, 6 ] ]
         },
         {
-          "player": [ [ "Peter", "Katja" ], [ "Anton", "Lio" ] ],
+          "player": [ [ "ps", "kt" ], [ "as", "ls" ] ],
           "sets": [ [ 0, 10 ], [ 9, 10 ], [ 3, 10 ] ]
         },
         {
-          "player": [ [ "Reinhard", "Ferda" ], [ "Claus", "Stefano" ] ],
+          "player": [ [ "rl", "fp" ], [ "ci", "sl" ] ],
           "sets": [ [ 7, 10 ], [ 10, 9 ], [ 10, 7 ] ]
         }
       ]
@@ -117,15 +117,15 @@
       "endDate": "2016-03-11",
       "matches": [
         {
-          "player": [ [ "Katja", "Claus" ], [ "Ferda", "Peter" ] ],
+          "player": [ [ "kt", "ci" ], [ "fp", "ps" ] ],
           "sets": [ [ 5, 10 ], [ 6, 10 ], [ 2, 10 ] ]
         },
         {
-          "player": [ [ "Manfred", "Stefano" ], [ "Szabi", "Uschi" ] ],
+          "player": [ [ "mr", "sl" ], [ "sm", "us" ] ],
           "sets": [ [ 10, 1 ], [ 10, 1 ], [ 10, 2 ] ]
         },
         {
-          "player": [ [ "Anja", "Anton" ], [ "Reinhard", "Lio" ] ],
+          "player": [ [ "ak", "as" ], [ "rl", "ls" ] ],
           "sets": [ [ 5, 10 ], [ 8, 10 ], [ 7, 10 ] ]
         }
       ]
@@ -135,15 +135,15 @@
       "endDate": "2016-03-18",
       "matches": [
         {
-          "player": [ [ "Lio", "Uschi" ], [ "Anton", "Reinhard" ] ],
+          "player": [ [ "ls", "us" ], [ "as", "rl" ] ],
           "sets": [ [ 4, 10 ], [ 8, 10 ], [ 6, 10 ] ]
         },
         {
-          "player": [ [ "Anja", "Ferda" ], [ "Manfred", "Peter" ] ],
+          "player": [ [ "ak", "fp" ], [ "mr", "ps" ] ],
           "sets": [ [ 2, 10 ], [ 10, 5 ], [ 10, 9 ] ]
         },
         {
-          "player": [ [ "Claus", "Szabi" ], [ "Stefano", "Katja" ] ],
+          "player": [ [ "ci", "sm" ], [ "sl", "kt" ] ],
           "sets": [ [ 4, 10 ], [ 10, 4 ], [ 10, 9 ] ]
         }
       ]
@@ -153,15 +153,15 @@
       "endDate": "2016-04-08",
       "matches": [
         {
-          "player": [ [ "Anja", "Stefano" ], [ "Lio", "Katja" ] ],
+          "player": [ [ "ak", "sl" ], [ "ls", "kt" ] ],
           "sets": [ [ 10, 3 ], [ 10, 7 ], [ 10, 0 ] ]
         },
         {
-          "player": [ [ "Szabi", "Anton" ], [ "Uschi", "Claus" ] ],
+          "player": [ [ "sm", "as" ], [ "us", "ci" ] ],
           "sets": [ [ 1, 10 ], [ 10, 4 ], [ 10, 3 ] ]
         },
         {
-          "player": [ [ "Peter", "Reinhard" ], [ "Ferda", "Manfred" ] ],
+          "player": [ [ "ps", "rl" ], [ "fp", "mr" ] ],
           "sets": [ [ 10, 8 ], [ 10, 8 ], [ 10, 9 ] ]
         }
       ]
@@ -171,15 +171,15 @@
       "endDate": "2016-04-15",
       "matches": [
         {
-          "player": [ [ "Anton", "Ferda" ], [ "Reinhard", "Szabi" ] ],
+          "player": [ [ "as", "fp" ], [ "rl", "sm" ] ],
           "sets": [ [ 6, 10 ], [ 10, 8 ], [ 2, 10 ] ]
         },
         {
-          "player": [ [ "Katja", "Manfred" ], [ "Stefano", "Lio" ] ],
+          "player": [ [ "kt", "mr" ], [ "sl", "ls" ] ],
           "sets": [ [ 3, 10 ], [ 7, 10 ], [ 7, 10 ] ]
         },
         {
-          "player": [ [ "Anja", "Uschi" ], [ "Peter", "Claus" ] ],
+          "player": [ [ "ak", "us" ], [ "ps", "ci" ] ],
           "sets": [ [ 9, 10 ], [ 8, 10 ], [ 10, 5 ] ]
         }
       ]
@@ -189,15 +189,15 @@
       "endDate": "2016-04-22",
       "matches": [
         {
-          "player": [ [ "Claus", "Lio" ], [ "Uschi", "Peter" ] ],
+          "player": [ [ "ci", "ls" ], [ "us", "ps" ] ],
           "sets": [ [ 10, 3 ], [ 10, 5 ], [ 10, 6 ] ]
         },
         {
-          "player": [ [ "Anja", "Reinhard" ], [ "Katja", "Szabi" ] ],
+          "player": [ [ "ak", "rl" ], [ "kt", "sm" ] ],
           "sets": [ [ 10, 5 ], [ 10, 9 ], [ 9, 10 ] ]
         },
         {
-          "player": [ [ "Ferda", "Stefano" ], [ "Manfred", "Anton" ] ],
+          "player": [ [ "fp", "sl" ], [ "mr", "as" ] ],
           "sets": [ [ 10, 5 ], [ 10, 6 ], [ 5, 10 ] ]
         }
       ]
@@ -207,15 +207,15 @@
       "endDate": "2016-04-29",
       "matches": [
         {
-          "player": [ [ "Anja", "Manfred" ], [ "Claus", "Anton" ] ],
+          "player": [ [ "ak", "mr" ], [ "ci", "as" ] ],
           "sets": [ [ 5, 10 ], [ 10, 7 ], [ 10, 5 ] ]
         },
         {
-          "player": [ [ "Stefano", "Uschi" ], [ "Lio", "Ferda" ] ],
+          "player": [ [ "sl", "us" ], [ "ls", "fp" ] ],
           "sets": [ [ 3, 10 ], [ 7, 10 ], [ 8, 10 ] ]
         },
         {
-          "player": [ [ "Szabi", "Peter" ], [ "Reinhard", "Katja" ] ],
+          "player": [ [ "sm", "ps" ], [ "rl", "kt" ] ],
           "sets": [ [ 10, 7 ], [ 10, 7 ], [ 10, 7 ] ]
         }
       ]

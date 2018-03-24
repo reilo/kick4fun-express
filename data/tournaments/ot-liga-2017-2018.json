@@ -1,1 +1,1522 @@
-{"createdBy":"Reinhard","creationDate":"2017-10-01","modifyDate":"2017-03-14","name":"OpenText Kickerliga 2017/2018","type":"liga","counting":"liga-2","official":true,"status":"progress","password":"","participants":["Kurt","Katja","Ferda","Manfred","Anja","Lio","Herbert","Franz","Claus","Josef","Hermann","Anton","Reinhard","Szabi","Stefano","Uschi"],"rounds":[{"startDate":"2017-10-02","endDate":"2017-10-15","matches":[{"date":"2017-10-12","player":[["Manfred","Claus"],["Lio","Katja"]],"sets":[[10,9],[10,8],[5,10]]},{"date":"2017-10-24","player":[["Anton","Kurt"],["Ferda","Herbert"]],"sets":[[10,5],[10,5],[10,8]],"substitute":[["Ferda","Reinhard"]]},{"date":"2017-10-16","player":[["Hermann","Stefano"],["Reinhard","Franz"]],"sets":[[10,2],[9,10],[10,5]]},{"date":"2017-10-09","player":[["Szabi","Josef"],["Anja","Uschi"]],"sets":[[10,7],[10,4],[9,10]]}]},{"startDate":"2017-10-16","endDate":"2017-11-05","matches":[{"date":"2017-11-02","player":[["Kurt","Josef"],["Szabi","Anton"]],"sets":[[10,1],[10,3],[10,2]]},{"date":"2017-10-19","player":[["Manfred","Hermann"],["Stefano","Claus"]],"sets":[[10,9],[4,10],[10,4]]},{"date":"2017-10-17","player":[["Uschi","Herbert"],["Ferda","Anja"]],"sets":[[9,10],[6,10],[9,10]]},{"date":"2017-10-23","player":[["Reinhard","Lio"],["Katja","Franz"]],"sets":[[6,10],[10,4],[8,10]]}]},{"startDate":"2017-11-06","endDate":"2017-11-19","matches":[{"date":"2017-11-14","player":[["Anja","Franz"],["Katja","Ferda"]],"sets":[[9,10],[10,9],[7,10]]},{"date":"2017-11-13","player":[["Lio","Herbert"],["Uschi","Reinhard"]],"sets":[[10,5],[10,2],[10,7]]},{"date":"2017-11-09","player":[["Szabi","Stefano"],["Claus","Anton"]],"sets":[[10,4],[10,1],[10,4]]},{"date":"2017-11-16","player":[["Manfred","Kurt"],["Josef","Hermann"]],"sets":[[4,10],[10,2],[8,10]]}]},{"startDate":"2017-11-20","endDate":"2017-12-03","matches":[{"date":"2017-11-28","player":[["Uschi","Josef"],["Hermann","Reinhard"]],"sets":[[7,10],[6,10],[3,10]]},{"date":"2017-11-23","player":[["Ferda","Anton"],["Claus","Katja"]],"sets":[[10,7],[10,4],[10,6]]},{"date":"2017-11-20","player":[["Manfred","Lio"],["Herbert","Kurt"]],"sets":[[10,6],[3,10],[5,10]]},{"date":"2017-11-27","player":[["Stefano","Franz"],["Anja","Szabi"]],"sets":[[10,5],[10,5],[10,3]]}]},{"startDate":"2017-12-04","endDate":"2017-12-17","matches":[{"date":"2017-12-04","player":[["Manfred","Stefano"],["Franz","Lio"]],"sets":[[10,4],[10,4],[6,10]]},{"date":"2017-12-05","player":[["Anja","Herbert"],["Kurt","Szabi"]],"sets":[[8,10],[8,10],[10,5]]},{"date":"2017-12-14","player":[["Josef","Anton"],["Ferda","Uschi"]],"sets":[[7,10],[10,4],[10,9]],"substitute":[["Ferda","Reinhard"]]},{"date":"2017-12-13","player":[["Katja","Reinhard"],["Hermann","Claus"]],"sets":[[7,10],[6,10],[10,8]]}]},{"startDate":"2017-12-18","endDate":"2018-01-15","matches":[{"date":"2018-01-10","player":[["Herbert","Reinhard"],["Katja","Anja"]],"sets":[[10,9],[10,2],[10,9]]},{"date":"2018-01-08","player":[["Manfred","Josef"],["Anton","Stefano"]],"sets":[[8,10],[6,10],[7,10]]},{"date":"2018-01-16","player":[["Claus","Szabi"],["Kurt","Hermann"]],"sets":[[1,10],[5,10],[6,10]]},{"date":"2018-01-09","player":[["Ferda","Franz"],["Lio","Uschi"]],"sets":[[10,6],[9,10],[10,3]],"substitute":[["Ferda","Reinhard"]]}]},{"startDate":"2018-01-15","endDate":"2018-01-28","matches":[{"date":"2018-01-23","player":[["Hermann","Uschi"],["Lio","Kurt"]],"sets":[[3,10],[10,8],[1,10]]},{"date":"2018-01-25","player":[["Franz","Szabi"],["Claus","Ferda"]],"sets":[[10,4],[10,2],[10,5]]},{"date":"2018-01-15","player":[["Katja","Anton"],["Stefano","Anja"]],"sets":[[2,10],[1,10],[0,10]]},{"date":"2018-01-26","player":[["Manfred","Herbert"],["Reinhard","Josef"]],"sets":[[7,10],[7,10],[3,10]]}]},{"startDate":"2018-01-29","endDate":"2018-02-11","matches":[{"date":"2018-01-31","player":[["Claus","Reinhard"],["Josef","Ferda"]],"sets":[[10,5],[3,10],[10,9]]},{"date":"2018-02-12","player":[["Kurt","Anja"],["Stefano","Lio"]],"sets":[[10,5],[6,10],[9,10]]},{"date":"2018-02-01","player":[["Manfred","Franz"],["Szabi","Herbert"]],"sets":[[6,10],[8,10],[10,7]]},{"date":"2018-02-08","player":[["Anton","Uschi"],["Hermann","Katja"]],"sets":[[6,10],[5,10],[7,10]]}]},{"startDate":"2018-02-12","endDate":"2018-02-25","matches":[{"date":"2018-02-14","player":[["Manfred","Anton"],["Uschi","Franz"]],"sets":[[10,6],[10,6],[5,10]]},{"date":"2018-02-20","player":[["Hermann","Szabi"],["Herbert","Katja"]],"sets":[[10,5],[10,4],[10,3]]},{"date":"2018-02-21","player":[["Reinhard","Anja"],["Kurt","Claus"]],"sets":[[4,10],[10,6],[5,10]]},{"date":"2018-02-22","player":[["Lio","Ferda"],["Josef","Stefano"]],"sets":[[7,10],[3,10],[4,10]]}]},{"startDate":"2018-02-26","endDate":"2018-03-07","matches":[{"date":"2018-03-01","player":[["Szabi","Ferda"],["Lio","Hermann"]],"sets":[[8,10],[8,10],[10,4]]},{"date":"2018-03-06","player":[["Manfred","Reinhard"],["Anja","Anton"]],"sets":[[6,10],[10,5],[10,4]]},{"date":"2018-02-28","player":[["Stefano","Katja"],["Herbert","Josef"]],"sets":[[10,2],[10,8],[10,2]]},{"date":"2018-02-27","player":[["Kurt","Uschi"],["Franz","Claus"]],"sets":[[9,10],[10,6],[10,9]]}]},{"startDate":"2018-03-08","endDate":"2018-03-18","matches":[{"date":"2018-03-13","player":[["Josef","Claus"],["Franz","Herbert"]]},{"date":"2018-03-08","player":[["Uschi","Katja"],["Stefano","Kurt"]],"sets":[[2,10],[5,10],[2,10]]},{"date":"2018-03-12","player":[["Lio","Anja"],["Anton","Hermann"]],"sets":[[10,8],[2,10],[5,10]]},{"date":"2018-03-14","player":[["Manfred","Szabi"],["Ferda","Reinhard"]],"sets":[[9,10],[10,4],[7,10]]}]},{"startDate":"2018-03-19","endDate":"2018-04-08","matches":[{"date":"","player":[["Stefano","Ferda"],["Reinhard","Kurt"]]},{"date":"","player":[["Herbert","Hermann"],["Anton","Franz"]]},{"date":"","player":[["Manfred","Uschi"],["Katja","Szabi"]]},{"date":"","player":[["Anja","Claus"],["Josef","Lio"]]}]},{"startDate":"2018-04-09","endDate":"2018-04-22","matches":[{"date":"","player":[["Manfred","Anja"],["Claus","Uschi"]]},{"date":"","player":[["Josef","Katja"],["Szabi","Lio"]]},{"date":"","player":[["Ferda","Hermann"],["Herbert","Stefano"]]},{"date":"","player":[["Franz","Kurt"],["Reinhard","Anton"]]}]},{"startDate":"2018-04-23","endDate":"2018-05-06","matches":[{"date":"","player":[["Katja","Kurt"],["Franz","Josef"]]},{"date":"","player":[["Manfred","Ferda"],["Hermann","Anja"]]},{"date":"","player":[["Anton","Lio"],["Szabi","Reinhard"]]},{"date":"","player":[["Herbert","Claus"],["Uschi","Stefano"]]}]},{"startDate":"2018-05-07","endDate":"2018-05-13","matches":[{"date":"","player":[["Reinhard","Stefano"],["Uschi","Szabi"]]},{"date":"","player":[["Claus","Lio"],["Anton","Herbert"]]},{"date":"","player":[["Franz","Hermann"],["Anja","Josef"]]},{"date":"","player":[["Manfred","Katja"],["Kurt","Ferda"]]}]}]}
+{
+  "createdBy": "rl",
+  "creationDate": "2017-10-01",
+  "modifyDate": "2017-03-14",
+  "name": "OpenText Kickerliga 2017/2018",
+  "type": "liga",
+  "counting": "liga-2",
+  "official": true,
+  "backup": true,
+  "status": "progress",
+  "password": "",
+  "participants": [
+    "kr",
+    "kt",
+    "fp",
+    "mr",
+    "ak",
+    "ls",
+    "hb",
+    "fr",
+    "ci",
+    "jk",
+    "hl",
+    "as",
+    "rl",
+    "sm",
+    "sl",
+    "us"
+  ],
+  "rounds": [
+    {
+      "startDate": "2017-10-02",
+      "endDate": "2017-10-15",
+      "matches": [
+        {
+          "date": "2017-10-12",
+          "player": [
+            [
+              "mr",
+              "ci"
+            ],
+            [
+              "ls",
+              "kt"
+            ]
+          ],
+          "sets": [
+            [
+              10,
+              9
+            ],
+            [
+              10,
+              8
+            ],
+            [
+              5,
+              10
+            ]
+          ]
+        },
+        {
+          "date": "2017-10-24",
+          "player": [
+            [
+              "as",
+              "kr"
+            ],
+            [
+              "fp",
+              "hb"
+            ]
+          ],
+          "sets": [
+            [
+              10,
+              5
+            ],
+            [
+              10,
+              5
+            ],
+            [
+              10,
+              8
+            ]
+          ],
+          "substitute": [
+            [
+              "fp",
+              "rl"
+            ]
+          ]
+        },
+        {
+          "date": "2017-10-16",
+          "player": [
+            [
+              "hl",
+              "sl"
+            ],
+            [
+              "rl",
+              "fr"
+            ]
+          ],
+          "sets": [
+            [
+              10,
+              2
+            ],
+            [
+              9,
+              10
+            ],
+            [
+              10,
+              5
+            ]
+          ]
+        },
+        {
+          "date": "2017-10-09",
+          "player": [
+            [
+              "sm",
+              "jk"
+            ],
+            [
+              "ak",
+              "us"
+            ]
+          ],
+          "sets": [
+            [
+              10,
+              7
+            ],
+            [
+              10,
+              4
+            ],
+            [
+              9,
+              10
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "startDate": "2017-10-16",
+      "endDate": "2017-11-05",
+      "matches": [
+        {
+          "date": "2017-11-02",
+          "player": [
+            [
+              "kr",
+              "jk"
+            ],
+            [
+              "sm",
+              "as"
+            ]
+          ],
+          "sets": [
+            [
+              10,
+              1
+            ],
+            [
+              10,
+              3
+            ],
+            [
+              10,
+              2
+            ]
+          ]
+        },
+        {
+          "date": "2017-10-19",
+          "player": [
+            [
+              "mr",
+              "hl"
+            ],
+            [
+              "sl",
+              "ci"
+            ]
+          ],
+          "sets": [
+            [
+              10,
+              9
+            ],
+            [
+              4,
+              10
+            ],
+            [
+              10,
+              4
+            ]
+          ]
+        },
+        {
+          "date": "2017-10-17",
+          "player": [
+            [
+              "us",
+              "hb"
+            ],
+            [
+              "fp",
+              "ak"
+            ]
+          ],
+          "sets": [
+            [
+              9,
+              10
+            ],
+            [
+              6,
+              10
+            ],
+            [
+              9,
+              10
+            ]
+          ]
+        },
+        {
+          "date": "2017-10-23",
+          "player": [
+            [
+              "rl",
+              "ls"
+            ],
+            [
+              "kt",
+              "fr"
+            ]
+          ],
+          "sets": [
+            [
+              6,
+              10
+            ],
+            [
+              10,
+              4
+            ],
+            [
+              8,
+              10
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "startDate": "2017-11-06",
+      "endDate": "2017-11-19",
+      "matches": [
+        {
+          "date": "2017-11-14",
+          "player": [
+            [
+              "ak",
+              "fr"
+            ],
+            [
+              "kt",
+              "fp"
+            ]
+          ],
+          "sets": [
+            [
+              9,
+              10
+            ],
+            [
+              10,
+              9
+            ],
+            [
+              7,
+              10
+            ]
+          ]
+        },
+        {
+          "date": "2017-11-13",
+          "player": [
+            [
+              "ls",
+              "hb"
+            ],
+            [
+              "us",
+              "rl"
+            ]
+          ],
+          "sets": [
+            [
+              10,
+              5
+            ],
+            [
+              10,
+              2
+            ],
+            [
+              10,
+              7
+            ]
+          ]
+        },
+        {
+          "date": "2017-11-09",
+          "player": [
+            [
+              "sm",
+              "sl"
+            ],
+            [
+              "ci",
+              "as"
+            ]
+          ],
+          "sets": [
+            [
+              10,
+              4
+            ],
+            [
+              10,
+              1
+            ],
+            [
+              10,
+              4
+            ]
+          ]
+        },
+        {
+          "date": "2017-11-16",
+          "player": [
+            [
+              "mr",
+              "kr"
+            ],
+            [
+              "jk",
+              "hl"
+            ]
+          ],
+          "sets": [
+            [
+              4,
+              10
+            ],
+            [
+              10,
+              2
+            ],
+            [
+              8,
+              10
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "startDate": "2017-11-20",
+      "endDate": "2017-12-03",
+      "matches": [
+        {
+          "date": "2017-11-28",
+          "player": [
+            [
+              "us",
+              "jk"
+            ],
+            [
+              "hl",
+              "rl"
+            ]
+          ],
+          "sets": [
+            [
+              7,
+              10
+            ],
+            [
+              6,
+              10
+            ],
+            [
+              3,
+              10
+            ]
+          ]
+        },
+        {
+          "date": "2017-11-23",
+          "player": [
+            [
+              "fp",
+              "as"
+            ],
+            [
+              "ci",
+              "kt"
+            ]
+          ],
+          "sets": [
+            [
+              10,
+              7
+            ],
+            [
+              10,
+              4
+            ],
+            [
+              10,
+              6
+            ]
+          ]
+        },
+        {
+          "date": "2017-11-20",
+          "player": [
+            [
+              "mr",
+              "ls"
+            ],
+            [
+              "hb",
+              "kr"
+            ]
+          ],
+          "sets": [
+            [
+              10,
+              6
+            ],
+            [
+              3,
+              10
+            ],
+            [
+              5,
+              10
+            ]
+          ]
+        },
+        {
+          "date": "2017-11-27",
+          "player": [
+            [
+              "sl",
+              "fr"
+            ],
+            [
+              "ak",
+              "sm"
+            ]
+          ],
+          "sets": [
+            [
+              10,
+              5
+            ],
+            [
+              10,
+              5
+            ],
+            [
+              10,
+              3
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "startDate": "2017-12-04",
+      "endDate": "2017-12-17",
+      "matches": [
+        {
+          "date": "2017-12-04",
+          "player": [
+            [
+              "mr",
+              "sl"
+            ],
+            [
+              "fr",
+              "ls"
+            ]
+          ],
+          "sets": [
+            [
+              10,
+              4
+            ],
+            [
+              10,
+              4
+            ],
+            [
+              6,
+              10
+            ]
+          ]
+        },
+        {
+          "date": "2017-12-05",
+          "player": [
+            [
+              "ak",
+              "hb"
+            ],
+            [
+              "kr",
+              "sm"
+            ]
+          ],
+          "sets": [
+            [
+              8,
+              10
+            ],
+            [
+              8,
+              10
+            ],
+            [
+              10,
+              5
+            ]
+          ]
+        },
+        {
+          "date": "2017-12-14",
+          "player": [
+            [
+              "jk",
+              "as"
+            ],
+            [
+              "fp",
+              "us"
+            ]
+          ],
+          "sets": [
+            [
+              7,
+              10
+            ],
+            [
+              10,
+              4
+            ],
+            [
+              10,
+              9
+            ]
+          ],
+          "substitute": [
+            [
+              "fp",
+              "rl"
+            ]
+          ]
+        },
+        {
+          "date": "2017-12-13",
+          "player": [
+            [
+              "kt",
+              "rl"
+            ],
+            [
+              "hl",
+              "ci"
+            ]
+          ],
+          "sets": [
+            [
+              7,
+              10
+            ],
+            [
+              6,
+              10
+            ],
+            [
+              10,
+              8
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "startDate": "2017-12-18",
+      "endDate": "2018-01-15",
+      "matches": [
+        {
+          "date": "2018-01-10",
+          "player": [
+            [
+              "hb",
+              "rl"
+            ],
+            [
+              "kt",
+              "ak"
+            ]
+          ],
+          "sets": [
+            [
+              10,
+              9
+            ],
+            [
+              10,
+              2
+            ],
+            [
+              10,
+              9
+            ]
+          ]
+        },
+        {
+          "date": "2018-01-08",
+          "player": [
+            [
+              "mr",
+              "jk"
+            ],
+            [
+              "as",
+              "sl"
+            ]
+          ],
+          "sets": [
+            [
+              8,
+              10
+            ],
+            [
+              6,
+              10
+            ],
+            [
+              7,
+              10
+            ]
+          ]
+        },
+        {
+          "date": "2018-01-16",
+          "player": [
+            [
+              "ci",
+              "sm"
+            ],
+            [
+              "kr",
+              "hl"
+            ]
+          ],
+          "sets": [
+            [
+              1,
+              10
+            ],
+            [
+              5,
+              10
+            ],
+            [
+              6,
+              10
+            ]
+          ]
+        },
+        {
+          "date": "2018-01-09",
+          "player": [
+            [
+              "fp",
+              "fr"
+            ],
+            [
+              "ls",
+              "us"
+            ]
+          ],
+          "sets": [
+            [
+              10,
+              6
+            ],
+            [
+              9,
+              10
+            ],
+            [
+              10,
+              3
+            ]
+          ],
+          "substitute": [
+            [
+              "fp",
+              "rl"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "startDate": "2018-01-15",
+      "endDate": "2018-01-28",
+      "matches": [
+        {
+          "date": "2018-01-23",
+          "player": [
+            [
+              "hl",
+              "us"
+            ],
+            [
+              "ls",
+              "kr"
+            ]
+          ],
+          "sets": [
+            [
+              3,
+              10
+            ],
+            [
+              10,
+              8
+            ],
+            [
+              1,
+              10
+            ]
+          ]
+        },
+        {
+          "date": "2018-01-25",
+          "player": [
+            [
+              "fr",
+              "sm"
+            ],
+            [
+              "ci",
+              "fp"
+            ]
+          ],
+          "sets": [
+            [
+              10,
+              4
+            ],
+            [
+              10,
+              2
+            ],
+            [
+              10,
+              5
+            ]
+          ]
+        },
+        {
+          "date": "2018-01-15",
+          "player": [
+            [
+              "kt",
+              "as"
+            ],
+            [
+              "sl",
+              "ak"
+            ]
+          ],
+          "sets": [
+            [
+              2,
+              10
+            ],
+            [
+              1,
+              10
+            ],
+            [
+              0,
+              10
+            ]
+          ]
+        },
+        {
+          "date": "2018-01-26",
+          "player": [
+            [
+              "mr",
+              "hb"
+            ],
+            [
+              "rl",
+              "jk"
+            ]
+          ],
+          "sets": [
+            [
+              7,
+              10
+            ],
+            [
+              7,
+              10
+            ],
+            [
+              3,
+              10
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "startDate": "2018-01-29",
+      "endDate": "2018-02-11",
+      "matches": [
+        {
+          "date": "2018-01-31",
+          "player": [
+            [
+              "ci",
+              "rl"
+            ],
+            [
+              "jk",
+              "fp"
+            ]
+          ],
+          "sets": [
+            [
+              10,
+              5
+            ],
+            [
+              3,
+              10
+            ],
+            [
+              10,
+              9
+            ]
+          ]
+        },
+        {
+          "date": "2018-02-12",
+          "player": [
+            [
+              "kr",
+              "ak"
+            ],
+            [
+              "sl",
+              "ls"
+            ]
+          ],
+          "sets": [
+            [
+              10,
+              5
+            ],
+            [
+              6,
+              10
+            ],
+            [
+              9,
+              10
+            ]
+          ]
+        },
+        {
+          "date": "2018-02-01",
+          "player": [
+            [
+              "mr",
+              "fr"
+            ],
+            [
+              "sm",
+              "hb"
+            ]
+          ],
+          "sets": [
+            [
+              6,
+              10
+            ],
+            [
+              8,
+              10
+            ],
+            [
+              10,
+              7
+            ]
+          ]
+        },
+        {
+          "date": "2018-02-08",
+          "player": [
+            [
+              "as",
+              "us"
+            ],
+            [
+              "hl",
+              "kt"
+            ]
+          ],
+          "sets": [
+            [
+              6,
+              10
+            ],
+            [
+              5,
+              10
+            ],
+            [
+              7,
+              10
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "startDate": "2018-02-12",
+      "endDate": "2018-02-25",
+      "matches": [
+        {
+          "date": "2018-02-14",
+          "player": [
+            [
+              "mr",
+              "as"
+            ],
+            [
+              "us",
+              "fr"
+            ]
+          ],
+          "sets": [
+            [
+              10,
+              6
+            ],
+            [
+              10,
+              6
+            ],
+            [
+              5,
+              10
+            ]
+          ]
+        },
+        {
+          "date": "2018-02-20",
+          "player": [
+            [
+              "hl",
+              "sm"
+            ],
+            [
+              "hb",
+              "kt"
+            ]
+          ],
+          "sets": [
+            [
+              10,
+              5
+            ],
+            [
+              10,
+              4
+            ],
+            [
+              10,
+              3
+            ]
+          ]
+        },
+        {
+          "date": "2018-02-21",
+          "player": [
+            [
+              "rl",
+              "ak"
+            ],
+            [
+              "kr",
+              "ci"
+            ]
+          ],
+          "sets": [
+            [
+              4,
+              10
+            ],
+            [
+              10,
+              6
+            ],
+            [
+              5,
+              10
+            ]
+          ]
+        },
+        {
+          "date": "2018-02-22",
+          "player": [
+            [
+              "ls",
+              "fp"
+            ],
+            [
+              "jk",
+              "sl"
+            ]
+          ],
+          "sets": [
+            [
+              7,
+              10
+            ],
+            [
+              3,
+              10
+            ],
+            [
+              4,
+              10
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "startDate": "2018-02-26",
+      "endDate": "2018-03-07",
+      "matches": [
+        {
+          "date": "2018-03-01",
+          "player": [
+            [
+              "sm",
+              "fp"
+            ],
+            [
+              "ls",
+              "hl"
+            ]
+          ],
+          "sets": [
+            [
+              8,
+              10
+            ],
+            [
+              8,
+              10
+            ],
+            [
+              10,
+              4
+            ]
+          ]
+        },
+        {
+          "date": "2018-03-06",
+          "player": [
+            [
+              "mr",
+              "rl"
+            ],
+            [
+              "ak",
+              "as"
+            ]
+          ],
+          "sets": [
+            [
+              6,
+              10
+            ],
+            [
+              10,
+              5
+            ],
+            [
+              10,
+              4
+            ]
+          ]
+        },
+        {
+          "date": "2018-02-28",
+          "player": [
+            [
+              "sl",
+              "kt"
+            ],
+            [
+              "hb",
+              "jk"
+            ]
+          ],
+          "sets": [
+            [
+              10,
+              2
+            ],
+            [
+              10,
+              8
+            ],
+            [
+              10,
+              2
+            ]
+          ]
+        },
+        {
+          "date": "2018-02-27",
+          "player": [
+            [
+              "kr",
+              "us"
+            ],
+            [
+              "fr",
+              "ci"
+            ]
+          ],
+          "sets": [
+            [
+              9,
+              10
+            ],
+            [
+              10,
+              6
+            ],
+            [
+              10,
+              9
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "startDate": "2018-03-08",
+      "endDate": "2018-03-18",
+      "matches": [
+        {
+          "date": "2018-03-13",
+          "player": [
+            [
+              "jk",
+              "ci"
+            ],
+            [
+              "fr",
+              "hb"
+            ]
+          ]
+        },
+        {
+          "date": "2018-03-08",
+          "player": [
+            [
+              "us",
+              "kt"
+            ],
+            [
+              "sl",
+              "kr"
+            ]
+          ],
+          "sets": [
+            [
+              2,
+              10
+            ],
+            [
+              5,
+              10
+            ],
+            [
+              2,
+              10
+            ]
+          ]
+        },
+        {
+          "date": "2018-03-12",
+          "player": [
+            [
+              "ls",
+              "ak"
+            ],
+            [
+              "as",
+              "hl"
+            ]
+          ],
+          "sets": [
+            [
+              10,
+              8
+            ],
+            [
+              2,
+              10
+            ],
+            [
+              5,
+              10
+            ]
+          ]
+        },
+        {
+          "date": "2018-03-14",
+          "player": [
+            [
+              "mr",
+              "sm"
+            ],
+            [
+              "fp",
+              "rl"
+            ]
+          ],
+          "sets": [
+            [
+              9,
+              10
+            ],
+            [
+              10,
+              4
+            ],
+            [
+              7,
+              10
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "startDate": "2018-03-19",
+      "endDate": "2018-04-08",
+      "matches": [
+        {
+          "date": "",
+          "player": [
+            [
+              "sl",
+              "fp"
+            ],
+            [
+              "rl",
+              "kr"
+            ]
+          ]
+        },
+        {
+          "date": "",
+          "player": [
+            [
+              "hb",
+              "hl"
+            ],
+            [
+              "as",
+              "fr"
+            ]
+          ]
+        },
+        {
+          "date": "",
+          "player": [
+            [
+              "mr",
+              "us"
+            ],
+            [
+              "kt",
+              "sm"
+            ]
+          ]
+        },
+        {
+          "date": "",
+          "player": [
+            [
+              "ak",
+              "ci"
+            ],
+            [
+              "jk",
+              "ls"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "startDate": "2018-04-09",
+      "endDate": "2018-04-22",
+      "matches": [
+        {
+          "date": "",
+          "player": [
+            [
+              "mr",
+              "ak"
+            ],
+            [
+              "ci",
+              "us"
+            ]
+          ]
+        },
+        {
+          "date": "",
+          "player": [
+            [
+              "jk",
+              "kt"
+            ],
+            [
+              "sm",
+              "ls"
+            ]
+          ]
+        },
+        {
+          "date": "",
+          "player": [
+            [
+              "fp",
+              "hl"
+            ],
+            [
+              "hb",
+              "sl"
+            ]
+          ]
+        },
+        {
+          "date": "",
+          "player": [
+            [
+              "fr",
+              "kr"
+            ],
+            [
+              "rl",
+              "as"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "startDate": "2018-04-23",
+      "endDate": "2018-05-06",
+      "matches": [
+        {
+          "date": "",
+          "player": [
+            [
+              "kt",
+              "kr"
+            ],
+            [
+              "fr",
+              "jk"
+            ]
+          ]
+        },
+        {
+          "date": "",
+          "player": [
+            [
+              "mr",
+              "fp"
+            ],
+            [
+              "hl",
+              "ak"
+            ]
+          ]
+        },
+        {
+          "date": "",
+          "player": [
+            [
+              "as",
+              "ls"
+            ],
+            [
+              "sm",
+              "rl"
+            ]
+          ]
+        },
+        {
+          "date": "",
+          "player": [
+            [
+              "hb",
+              "ci"
+            ],
+            [
+              "us",
+              "sl"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "startDate": "2018-05-07",
+      "endDate": "2018-05-13",
+      "matches": [
+        {
+          "date": "",
+          "player": [
+            [
+              "rl",
+              "sl"
+            ],
+            [
+              "us",
+              "sm"
+            ]
+          ]
+        },
+        {
+          "date": "",
+          "player": [
+            [
+              "ci",
+              "ls"
+            ],
+            [
+              "as",
+              "hb"
+            ]
+          ]
+        },
+        {
+          "date": "",
+          "player": [
+            [
+              "fr",
+              "hl"
+            ],
+            [
+              "ak",
+              "jk"
+            ]
+          ]
+        },
+        {
+          "date": "",
+          "player": [
+            [
+              "mr",
+              "kt"
+            ],
+            [
+              "kr",
+              "fp"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

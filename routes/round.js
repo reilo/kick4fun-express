@@ -1,4 +1,5 @@
 var fs = require('fs');
+var utils = require('../utils');
 
 exports.update = function (request, response, next) {
   var tid = request.params.tid;
@@ -7,17 +8,17 @@ exports.update = function (request, response, next) {
   var startDate = body.startDate;
   var endDate = body.endDate;
   var filePath = './data/tournaments/' + tid + ".json";
-  var filePathBak = './data/tournaments/bak/' + tid + "_" + Date.now().toString() + ".json";
+  var filePathBak = './data/tournaments/bak/' + tid + "_" + utils.formatNow() + ".json";
   var data = fs.readFileSync(filePath, 'utf-8');
   var json = JSON.parse(data);
   if (body.password != json.password) {
-    response.sendStatus(401);
-  } else if (!/\d\d\d\d-\d\d-\d\d/.test(startDate) || isNaN(Date.parse(startDate))) {
-    response.sendStatus(400);
-  } else if (!/\d\d\d\d-\d\d-\d\d/.test(endDate) || isNaN(Date.parse(endDate))) {
-    response.sendStatus(400);
+    response.statusMessage = "Ungültiges Password";
+    response.status(401).end();
+  } else if (!utils.isDate(startDate) || !utils.isDate(endDate)) {
+    response.statusMessage = "Ungültiges Datumsformat";
+    response.status(400).end();
   } else {
-    fs.writeFileSync(filePathBak, data, 'utf-8');
+    json.backup && fs.writeFileSync(filePathBak, data, 'utf-8');
     Object.assign(json.rounds[rid], { startDate: startDate, endDate: endDate });
     fs.writeFileSync(filePath, JSON.stringify(json), 'utf-8');
     response.status(200).send(json);
