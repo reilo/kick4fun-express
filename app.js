@@ -25,8 +25,15 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(appPath + 'api', routes);
 
+// handle errors
+app.use((error, request, response, next) => {
+  console.log(error);
+  response.statusMessage = error.message;
+  response.status(error.status).end();
+});
+
 //routes(app);
 
 var server = app.listen(3001, function () {
-    console.log("app running on port:", server.address().port);
+  console.log("app running on port:", server.address().port);
 });

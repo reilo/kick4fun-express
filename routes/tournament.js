@@ -11,8 +11,7 @@ exports.get = function (request, response, next) {
     , tdata);
   var tjson = JSON.parse(tdata);
   tjson.id = tid;
-  var table = calculateTable(tjson);
-  tjson.table = table;
+  tjson.table = calculateTable(tjson);
   response.status(200).send(tjson);
 };
 
@@ -138,24 +137,48 @@ exports.update = function (request, response, next) {
 exports.create = function (request, response, next) {
   var body = request.body;
   var tid = body.id;
+  if (!body.id || !body.id.length) {
+    next({ message: 'ID darf nicht leer sein', status: 400 });
+    return;
+  }
+  if (!body.name || !body.name.length) {
+    next({ message: 'Name darf nicht leer sein', status: 400 });
+    return;
+  }
+  if (!body.createdBy || !body.createdBy.length) {
+    next({ message: 'Ersteller darf nicht leer sein', status: 400 });
+    return;
+  }
+  if (!utils.isDate(body.startDate)) {
+    next({ message: 'Ungültiges Datumsformat', status: 400 });
+  }
+  const filePath = './data/tournaments/' + body.id + ".json";
+  if (fs.existsSync(filePath)) {
+    next({ message: 'ID wird schon benutzt', status: 400 });
+    return;
+  }
   var tournament = Object.assign({}, {
     createdBy: body.createdBy,
     name: body.name,
     type: "liga",
     counting: "liga-2",
-    official: body.official,
+    official: false,
     status: "progress",
     password: body.password,
     participants: body.participants
   });
-  var templateConfigPath = './data/templates/templateConfig.json';
-  var templateConfigData = fs.readFileSync(templateConfigPath, 'utf-8');
-  var jsonTemplateConfig = JSON.parse(templateConfigData);
-  var templateConfigEntry = jsonTemplateConfig.find(template => template.id === body.template);
-  var templatePath = './data/templates/' + templateConfigEntry.fileName;
+  var tConfigData = fs.readFileSync('./data/templates/templateConfig.json', 'utf-8');
+  var tConfig = JSON.parse(tConfigData);
+  var tEntry = tConfig.find(template => template.id === body.template);
+  if (body.participants.length != tEntry.players) {
+    next({ message: 'Anzahl der Spieler muss ' + tEntry.players + ' sein', status: 400 });
+    return;
+  }
+  var templatePath = './data/templates/' + tEntry.fileName;
   var template = fs.readFileSync(templatePath, 'utf-8');
   var lines = template.split('\n');
-  var participantMap = body.participants.reduce((res, cur, idx) => {
+  var shuffledParticipants = utils.shuffle(body.participants);
+  var participantMap = shuffledParticipants.reduce((res, cur, idx) => {
     const letter = String.fromCharCode(65 + idx);
     return Object.assign(res, { [letter]: cur })
   }, {});
@@ -180,11 +203,6 @@ exports.create = function (request, response, next) {
     return result;
   }, [])
   tournament.rounds = rounds;
-  const filePath = './data/tournaments/' + body.id + ".json";
-  if (!fs.existsSync(filePath)) {
-    fs.writeFileSync(filePath, JSON.stringify(tournament), 'utf-8');
-    response.status(200).send(tournament);
-  } else {
-    response.sendStatus(400);
-  }
+  fs.writeFileSync(filePath, JSON.stringify(tournament), 'utf-8');
+  response.status(200).send(tournament);
 };
