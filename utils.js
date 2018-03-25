@@ -1,4 +1,5 @@
 var fs = require('fs');
+var appConfig = require('./appConfig');
 
 exports.formatNow = () =>
   (new Date()).toISOString().replace(/[.:-]/g, "")
@@ -6,25 +7,31 @@ exports.formatNow = () =>
 exports.isDate = (date) =>
   /\d\d\d\d-\d\d-\d\d/.test(date) && !isNaN(Date.parse(date))
 
+exports.getLigaStatus = () =>
+  JSON.parse(fs.readFileSync(appConfig.dataPath + "ligastatus.json", 'utf-8'));
+
 exports.getParticipants = () =>
-  JSON.parse(fs.readFileSync('./data/participants.json', 'utf-8'))
+  JSON.parse(fs.readFileSync(appConfig.dataPath + 'participants.json', 'utf-8'))
 
 exports.getTournament = (id) => {
-  var filePath = './data/tournaments/' + id + ".json";
+  var filePath = appConfig.dataPath + 'tournaments/' + id + ".json";
   var data = fs.readFileSync(filePath, 'utf-8');
   return JSON.parse(data);
 }
 
 exports.writeTournament = (id, json) => {
-  var filePath = './data/tournaments/' + id + ".json";
+  var filePath = appConfig.dataPath + 'tournaments/' + id + ".json";
   fs.writeFileSync(filePath, JSON.stringify(json), 'utf-8');
 }
 
 exports.backupTournament = (id) => {
-  var filePath = './data/tournaments/' + id + ".json";
-  var filePathBak = './data/tournaments/bak/' + id + "_" + utils.formatNow() + ".json";
+  var filePath = appConfig.dataPath + 'tournaments/' + id + ".json";
+  var filePathBak = appConfig.dataPath + 'tournaments/bak/' + id + "_" + exports.formatNow() + ".json";
   fs.createReadStream(filePath).pipe(fs.createWriteStream(filePathBak));
 }
+
+exports.getTemplateConfig = () =>
+  JSON.parse(fs.readFileSync(appConfig.dataPath + 'templates/templateConfig.json', 'utf-8'));
 
 exports.shuffle = (array) => {
   var currentIndex = array.length, temporaryValue, randomIndex;

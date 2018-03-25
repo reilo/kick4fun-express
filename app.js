@@ -2,8 +2,10 @@ var express = require("express");
 var bodyParser = require("body-parser");
 var routes = require("./routes/routes");
 
-var port = 3001;
-var appPath = '/';
+var config = require("./appConfig.js");
+
+var port = config.port;
+var appPath = config.appPath;
 
 var allowCrossDomain = (req, res, next) => {
   res.header('Access-Control-Allow-Origin', '*');

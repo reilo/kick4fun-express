@@ -63,6 +63,13 @@
     "real": true
   },
   {
+    "id": "ks",
+    "name": "Kilian",
+    "fullName": "Kilian Schropp",
+    "active": false,
+    "real": true
+  },
+  {
     "id": "kt",
     "name": "Katja",
     "fullName": "Katja Tribulowski",

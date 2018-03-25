@@ -1,9 +1,10 @@
 var fs = require('fs');
 var utils = require('../utils');
+var appConfig = require('../appConfig');
 
 exports.get = function (request, response, next) {
   var tid = request.params.id;
-  var tournamentPath = './data/tournaments/' + tid + ".json";
+  var tournamentPath = appConfig.dataPath + 'tournaments/' + tid + ".json";
   var tdata = fs.readFileSync(tournamentPath, 'utf-8');
   var pjson = utils.getParticipants();
   tdata = pjson.reduce((data, item) =>
@@ -11,7 +12,12 @@ exports.get = function (request, response, next) {
     , tdata);
   var tjson = JSON.parse(tdata);
   tjson.id = tid;
-  tjson.table = calculateTable(tjson);
+  const scores = calculateScores(tjson, true);
+  tjson.table = scores.overall;
+  tjson.topScorer = scores.topScorer;
+  tjson.topDefender = scores.topDefender;
+  tjson.plainMatches = scores.plainMatches;
+  tjson.narrowMatches = scores.narrowMatches;
   response.status(200).send(tjson);
 };
 
@@ -20,7 +26,7 @@ exports.list = function (request, response, next) {
   var pmap = pjson.reduce((res, cur) =>
     Object.assign(res, { [cur.id]: cur.name })
     , {});
-  var dirPath = './data/tournaments/';
+  var dirPath = appConfig.dataPath + 'tournaments/';
   var files = fs.readdirSync(dirPath);
   var tournaments = files.reduce((res, cur) => {
     var idx = cur.indexOf(".json", cur.length - 5);
@@ -32,12 +38,12 @@ exports.list = function (request, response, next) {
         id: id,
         name: json.name,
         type: json.type,
-        createdBy: json.createdBy,
+        createdBy: pmap[json.createdBy],
         official: json.official,
         status: json.status,
         completedDate: json.completedDate
       };
-      const table = calculateTable(json);
+      const table = calculateScores(json).overall;
       table && table.length && Object.assign(item, {
         ranking: table.reduce((res, cur, index) => {
           index < 3 && res.push(pmap[cur.player]);
@@ -51,10 +57,12 @@ exports.list = function (request, response, next) {
   response.status(200).send(tournaments);
 };
 
-function calculateTable(data) {
+function calculateScores(data, includeStatistics) {
   var template = { "matches": 0, "wins": 0, "score": 0, "goalsScored": 0, "goalsShipped": 0 };
-  var table = []
-  if (!data.participants) return table;
+  var results = { overall: [], topScorer: [], topDefender: [], plainMatches: [], narrowMatches: [] }
+  if (!data.participants) {
+    return results;
+  }
   var map = data.participants.reduce((obj, cur) => {
     obj[cur] = Object.assign({}, template);
     return obj;
@@ -106,13 +114,21 @@ function calculateTable(data) {
           map[player].goalsShipped += result2[2];
         });
         match.result = [result1[0], result2[0]];
+        if (includeStatistics) {
+          results.plainMatches.push(match);
+          //results.narrowMatches.push(match);
+        }
       }
     })
   });
   for (var key in map) {
-    table.push(Object.assign(map[key], { player: key }));
+    results.overall.push(Object.assign(map[key], { player: key }));
+    if (includeStatistics) {
+      results.topScorer.push(Object.assign(map[key], { player: key }));
+      results.topDefender.push(Object.assign(map[key], { player: key }));
+    }
   }
-  table.sort((a, b) => {
+  results.overall.sort((a, b) => {
     var diff = a.score - b.score;
     if (!diff) {
       diff = (a.goalsScored - a.goalsShipped) - (b.goalsScored - b.goalsShipped);
@@ -122,12 +138,46 @@ function calculateTable(data) {
     }
     return -diff;
   });
-  return table;
+  if (includeStatistics) {
+    results.topScorer.sort((a, b) => {
+      var diff = a.goalsScored - b.goalsScored;
+      if (!diff) {
+        diff = (a.goalsScored - a.goalsShipped) - (b.goalsScored - b.goalsShipped);
+        if (!diff) {
+          diff = b.goalsShipped - a.goalsShipped;
+        }
+      }
+      return -diff;
+    });
+    results.topDefender.sort((a, b) => {
+      var diff = b.goalsShipped - a.goalsShipped;
+      if (!diff) {
+        diff = (a.goalsScored - a.goalsShipped) - (b.goalsScored - b.goalsShipped);
+        if (!diff) {
+          diff = a.goalsScored - b.goalsScored;
+        }
+      }
+      return -diff;
+    });
+    results.plainMatches.sort((a, b) => {
+      var diffa = a.sets.reduce((res, cur) => res + cur[0] - cur[1], 0);
+      var diffb = b.sets.reduce((res, cur) => res + cur[0] - cur[1], 0);
+      return Math.abs(diffb) -  Math.abs(diffa);
+    });
+    /*
+    results.narrowMatches.sort((a, b) => {
+      var diffa = a.sets.reduce((res, cur) => res + cur[0] - cur[1], 0);
+      var diffb = b.sets.reduce((res, cur) => res + cur[0] - cur[1], 0);
+      return  Math.abs(diffa) -  Math.abs(diffb);
+    });
+    */
+  }
+  return results;
 }
 
 exports.update = function (request, response, next) {
   var tid = request.params.id;
-  var filePath = './data/tournaments/' + tid + ".json";
+  var filePath = appConfig.dataPath + 'tournaments/' + tid + ".json";
   var data = fs.readFileSync(filePath, 'utf-8');
   var json = JSON.parse(data);
   //...
@@ -152,7 +202,7 @@ exports.create = function (request, response, next) {
   if (!utils.isDate(body.startDate)) {
     next({ message: 'Ungültiges Datumsformat', status: 400 });
   }
-  const filePath = './data/tournaments/' + body.id + ".json";
+  const filePath = appConfig.dataPath + 'tournaments/' + body.id + ".json";
   if (fs.existsSync(filePath)) {
     next({ message: 'ID wird schon benutzt', status: 400 });
     return;
@@ -167,14 +217,14 @@ exports.create = function (request, response, next) {
     password: body.password,
     participants: body.participants
   });
-  var tConfigData = fs.readFileSync('./data/templates/templateConfig.json', 'utf-8');
+  var tConfigData = fs.readFileSync(appConfig.dataPath + 'templates/templateConfig.json', 'utf-8');
   var tConfig = JSON.parse(tConfigData);
   var tEntry = tConfig.find(template => template.id === body.template);
   if (body.participants.length != tEntry.players) {
     next({ message: 'Anzahl der Spieler muss ' + tEntry.players + ' sein', status: 400 });
     return;
   }
-  var templatePath = './data/templates/' + tEntry.fileName;
+  var templatePath = appConfig.dataPath + 'templates/' + tEntry.fileName;
   var template = fs.readFileSync(templatePath, 'utf-8');
   var lines = template.split('\n');
   var shuffledParticipants = utils.shuffle(body.participants);
