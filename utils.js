@@ -7,8 +7,11 @@ exports.formatNow = () =>
 exports.isDate = (date) =>
   /\d\d\d\d-\d\d-\d\d/.test(date) && !isNaN(Date.parse(date))
 
-exports.getLigaStatus = () =>
-  JSON.parse(fs.readFileSync(appConfig.dataPath + "ligastatus.json", 'utf-8'));
+exports.getLigaStatus = () => {
+  let json = JSON.parse(
+    fs.readFileSync(appConfig.dataPath + "ligastatus.json", 'utf-8'));
+  return json;
+}
 
 exports.getParticipants = () =>
   JSON.parse(fs.readFileSync(appConfig.dataPath + 'participants.json', 'utf-8'))
@@ -27,6 +30,12 @@ exports.writeTournament = (id, json) => {
 exports.backupTournament = (id) => {
   var filePath = appConfig.dataPath + 'tournaments/' + id + ".json";
   var filePathBak = appConfig.dataPath + 'tournaments/bak/' + id + "_" + exports.formatNow() + ".json";
+  fs.createReadStream(filePath).pipe(fs.createWriteStream(filePathBak));
+}
+
+exports.backupPlayers = () => {
+  var filePath = appConfig.dataPath + "participants.json";
+  var filePathBak = appConfig.dataPath + 'bak/participants' + "_" + exports.formatNow() + ".json";
   fs.createReadStream(filePath).pipe(fs.createWriteStream(filePathBak));
 }
 

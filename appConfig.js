@@ -1,3 +1,3 @@
-exports.port = 3001;
+exports.port = 5001;
 exports.appPath = "/";
 exports.dataPath = "./data/";

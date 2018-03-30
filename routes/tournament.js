@@ -18,6 +18,8 @@ exports.get = function (request, response, next) {
   tjson.topDefender = scores.topDefender;
   tjson.plainMatches = scores.plainMatches;
   tjson.narrowMatches = scores.narrowMatches;
+  tjson.to0Matches = scores.to0Matches;
+  tjson.to9Matches = scores.to9Matches;
   response.status(200).send(tjson);
 };
 
@@ -59,7 +61,7 @@ exports.list = function (request, response, next) {
 
 function calculateScores(data, includeStatistics) {
   var template = { "matches": 0, "wins": 0, "score": 0, "goalsScored": 0, "goalsShipped": 0 };
-  var results = { overall: [], topScorer: [], topDefender: [], plainMatches: [], narrowMatches: [] }
+  var results = { overall: [], topScorer: [], topDefender: [], plainMatches: [], to0Matches: [], to9Matches: [] }
   if (!data.participants) {
     return results;
   }
@@ -71,6 +73,21 @@ function calculateScores(data, includeStatistics) {
     round.matches.forEach(match => {
       if (match.sets && match.sets.length) {
         var numSets = match.sets.length;
+        if (includeStatistics) {
+          let to0Pushed = false;
+          let to9Pushed = false;
+          for (let i = 0; i < numSets; i++) {
+            const sets = match.sets[i];
+            if (!to0Pushed && sets.indexOf(10) > -1 && sets.indexOf(0) > -1) {
+              results.to0Matches.push(match);
+              to0Pushed = true;
+            }
+            if (!to9Pushed && sets.indexOf(10) > -1 && sets.indexOf(9) > -1) {
+              results.to9Matches.push(match);
+              to9Pushed = true;
+            }
+          }
+        }
         var result1 = match.sets.reduce((res, cur) => {
           res[0] += cur[0] > cur[1] ? 1 : 0;
           res[1] += cur[0];
@@ -116,7 +133,6 @@ function calculateScores(data, includeStatistics) {
         match.result = [result1[0], result2[0]];
         if (includeStatistics) {
           results.plainMatches.push(match);
-          //results.narrowMatches.push(match);
         }
       }
     })
@@ -162,15 +178,8 @@ function calculateScores(data, includeStatistics) {
     results.plainMatches.sort((a, b) => {
       var diffa = a.sets.reduce((res, cur) => res + cur[0] - cur[1], 0);
       var diffb = b.sets.reduce((res, cur) => res + cur[0] - cur[1], 0);
-      return Math.abs(diffb) -  Math.abs(diffa);
+      return Math.abs(diffb) - Math.abs(diffa);
     });
-    /*
-    results.narrowMatches.sort((a, b) => {
-      var diffa = a.sets.reduce((res, cur) => res + cur[0] - cur[1], 0);
-      var diffb = b.sets.reduce((res, cur) => res + cur[0] - cur[1], 0);
-      return  Math.abs(diffa) -  Math.abs(diffb);
-    });
-    */
   }
   return results;
 }
@@ -201,6 +210,11 @@ exports.create = function (request, response, next) {
   }
   if (!utils.isDate(body.startDate)) {
     next({ message: 'Ungültiges Datumsformat', status: 400 });
+    return;
+  }
+  if (!body.interval || body.interval < 0) {
+    next({ message: 'Intervall muss > 0 sein', status: 400 });
+    return;
   }
   const filePath = appConfig.dataPath + 'tournaments/' + body.id + ".json";
   if (fs.existsSync(filePath)) {
@@ -243,7 +257,7 @@ exports.create = function (request, response, next) {
     let startDate = new Date(firstDate.getTime());
     let endDate = new Date(firstDate.getTime());
     startDate.setDate(startDate.getDate() + rid * interval);
-    endDate.setDate(endDate.getDate() + (rid + 1) * interval - 1);
+    interval > 0 && endDate.setDate(endDate.getDate() + (rid + 1) * interval - 1);
     result.length < rid + 1 && result.push({
       startDate: startDate.toISOString().split('T')[0],
       endDate: endDate.toISOString().split('T')[0],

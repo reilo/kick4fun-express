@@ -11,6 +11,8 @@ const template = require('./template');
 router.get('/kickerliga', kickerliga.get);
 
 router.get('/kickerliga/players', player.list);
+router.post('/kickerliga/players', player.create);
+router.put('/kickerliga/players/:id', player.update);
 
 router.get('/kickerliga/tournaments', tournament.list);
 router.get('/kickerliga/tournaments/:id', tournament.get);

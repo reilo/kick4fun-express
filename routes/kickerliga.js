@@ -1,5 +1,7 @@
 var utils = require('../utils');
 
 exports.get = (request, response) => {
-  response.status(200).send( utils.getLigaStatus());
+  var ligaStatus = utils.getLigaStatus();
+  delete ligaStatus.adminPassword;
+  response.status(200).send(ligaStatus);
 };

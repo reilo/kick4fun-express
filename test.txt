@@ -1,16 +1,16 @@
-http://localhost:3001/api/kickerliga
+http://localhost:5001/api/kickerliga
  
-http://localhost:3001/api/kickerliga/players
+http://localhost:5001/api/kickerliga/players
 
-http://localhost:3001/api/kickerliga/tournaments
+http://localhost:5001/api/kickerliga/tournaments
 
-http://localhost:3001/api/kickerliga/templates
+http://localhost:5001/api/kickerliga/templates
 
-http://localhost:3001/api/kickerliga/templates/ip-pure_20
+http://localhost:5001/api/kickerliga/templates/ip-pure_20
 
-http://localhost:3001/api/kickerliga/tournaments/ot-liga-2017-2018
+http://localhost:5001/api/kickerliga/tournaments/ot-liga-2017-2018
 
-POST http://localhost:3001/api/kickerliga/tournaments
+POST http://localhost:5001/api/kickerliga/tournaments
 content-type: application/json
 
 {
@@ -25,7 +25,7 @@ content-type: application/json
   "password": ""
 }
 
-PUT http://localhost:3001/api/kickerliga/tournaments/ssss/rounds/0/matches/0 HTTP/1.1
+PUT http://localhost:5001/api/kickerliga/tournaments/ssss/rounds/0/matches/0 HTTP/1.1
 content-type: application/json
 
 {

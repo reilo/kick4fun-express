@@ -36,6 +36,6 @@ app.use((error, request, response, next) => {
 
 //routes(app);
 
-var server = app.listen(3001, function () {
+var server = app.listen(port, function () {
   console.log("app running on port:", server.address().port);
 });
