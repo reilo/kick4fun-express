@@ -33,6 +33,11 @@ exports.backupTournament = (id) => {
   fs.createReadStream(filePath).pipe(fs.createWriteStream(filePathBak));
 }
 
+exports.writePlayers = (json) => {
+  var filePath = appConfig.dataPath + "participants.json";
+  fs.writeFileSync(filePath, JSON.stringify(json), 'utf-8');
+}
+
 exports.backupPlayers = () => {
   var filePath = appConfig.dataPath + "participants.json";
   var filePathBak = appConfig.dataPath + 'bak/participants' + "_" + exports.formatNow() + ".json";
