@@ -36,7 +36,7 @@ exports.update = function (request, response, next) {
     player[0].name = body.name;
     player[0].fullName = body.fullName;
     player[0].active = body.active;
-    player[0].real = body.real;
+    players.sort((a, b) => a.name.localeCompare(b.name));
     utils.writePlayers(players);
     response.status(200).send(player[0]);
   }
@@ -70,10 +70,10 @@ exports.create = function (request, response, next) {
       id: createId(body.fullName, playerIds),
       name: body.name,
       fullName: body.fullName,
-      active: body.active,
-      real: body.real
+      active: body.active
     };
     players.push(player);
+    players.sort((a, b) => a.name.localeCompare(b.name));
     utils.writePlayers(players);
     response.status(200).send(player);
   }

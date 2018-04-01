@@ -3,140 +3,120 @@
     "id": "ak",
     "name": "Anja",
     "fullName": "Anja Klement",
-    "active": true,
-    "real": true
+    "active": true
   },
   {
     "id": "as",
     "name": "Anton",
     "fullName": "Anton Schegg",
-    "active": true,
-    "real": true
+    "active": true
   },
   {
     "id": "ci",
     "name": "Claus",
     "fullName": "Claus Ilmberger",
-    "active": true,
-    "real": true
+    "active": true
   },
   {
     "id": "fp",
     "name": "Ferda",
     "fullName": "Ferdinand Prantl",
-    "active": true,
-    "real": true
+    "active": true
   },
   {
     "id": "fr",
     "name": "Franz",
     "fullName": "Franz Pauthner",
-    "active": true,
-    "real": true
+    "active": true
   },
   {
     "id": "fj",
     "name": "Franz/Josef",
     "fullName": "Franz mit Josef",
-    "active": false,
-    "real": true
+    "active": false
   },
   {
     "id": "hb",
     "name": "Herbert",
     "fullName": "Herbert Bock",
-    "active": true,
-    "real": true
+    "active": true
   },
   {
     "id": "hl",
     "name": "Hermann",
     "fullName": "Hermann Löckert",
-    "active": true,
-    "real": true
+    "active": true
   },
   {
     "id": "jk",
     "name": "Josef",
     "fullName": "Josef König",
-    "active": true,
-    "real": true
-  },
-  {
-    "id": "ks",
-    "name": "Kilian",
-    "fullName": "Kilian Schropp",
-    "active": false,
-    "real": true
+    "active": true
   },
   {
     "id": "kt",
     "name": "Katja",
     "fullName": "Katja Tribulowski",
-    "active": true,
-    "real": true
+    "active": true
+  },
+  {
+    "id": "ks",
+    "name": "Kilian",
+    "fullName": "Kilian Schropp",
+    "active": false
   },
   {
     "id": "km",
     "name": "Klaus",
     "fullName": "Klaus Mutzbauer",
-    "active": false,
-    "real": true
+    "active": false
   },
   {
     "id": "kr",
     "name": "Kurt",
     "fullName": "Kurt Rohde",
-    "active": true,
-    "real": true
+    "active": true
   },
   {
     "id": "ls",
     "name": "Lio",
     "fullName": "Lionel Spohr",
-    "active": true,
-    "real": true
+    "active": true
   },
   {
     "id": "mr",
     "name": "Manfred",
     "fullName": "Manfred Rottner",
-    "active": true,
-    "real": true
+    "active": true
   },
   {
     "id": "ps",
     "name": "Peter",
     "fullName": "Peter Sturm",
-    "active": false,
-    "real": true
+    "active": false
   },
   {
     "id": "rl",
     "name": "Reinhard",
     "fullName": "Reinhard Loch",
-    "active": true,
-    "real": true
+    "active": true
   },
   {
     "id": "sl",
     "name": "Stefano",
     "fullName": "Stefano Lauricella",
-    "active": true,
-    "real": true
+    "active": true
   },
   {
     "id": "sm",
     "name": "Szabi",
     "fullName": "Szabolcs Gyula Mile",
-    "active": true,
-    "real": true
+    "active": true
   },
   {
     "id": "us",
     "name": "Uschi",
     "fullName": "Ursula Lydia Schreyer",
-    "active": true,
-    "real": true
+    "active": true
   }
 ]
