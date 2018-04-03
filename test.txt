@@ -33,3 +33,13 @@ content-type: application/json
     "date": "208-06-04",
     "password": ""
 }
+
+POST http://localhost:5001/api/kickerliga/players HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Sepp",
+    "fullName": "Sepp Mayer",
+    "active": false
+    "password": "kick4fun"
+}

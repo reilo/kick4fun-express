@@ -186,11 +186,25 @@ function calculateScores(data, includeStatistics) {
 
 exports.update = function (request, response, next) {
   var tid = request.params.id;
-  var filePath = appConfig.dataPath + 'tournaments/' + tid + ".json";
-  var data = fs.readFileSync(filePath, 'utf-8');
-  var json = JSON.parse(data);
-  //...
-  response.status(200).send(json);
+  var tournament = utils.getTournament(tid);
+  var body = request.body;
+  if (body.password != tournament.password) {
+    next({ message: 'Ungültiges Password', status: 400 });
+    return;
+  }
+  if (!body.name) {
+    next({ message: 'Name darf nicht leer sein', status: 400 });
+    return;
+  }
+  if (!body.createdBy || !body.createdBy.length) {
+    next({ message: 'Ersteller darf nicht leer sein', status: 400 });
+    return;
+  }
+  tournament.name = body.name;
+  tournament.createdBy = body.createdBy;
+  tournament.backup && utils.backupTournament(tid);
+  utils.writeTournament(tid, tournament);
+  response.status(200).send(tournament);
 };
 
 exports.create = function (request, response, next) {

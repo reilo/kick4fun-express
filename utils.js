@@ -14,7 +14,8 @@ exports.getLigaStatus = () => {
 }
 
 exports.getParticipants = () =>
-  JSON.parse(fs.readFileSync(appConfig.dataPath + 'participants.json', 'utf-8'))
+  JSON.parse(fs.readFileSync(
+    appConfig.dataPath + 'participants.json', 'utf-8'))
 
 exports.getTournament = (id) => {
   var filePath = appConfig.dataPath + 'tournaments/' + id + ".json";
@@ -29,8 +30,10 @@ exports.writeTournament = (id, json) => {
 
 exports.backupTournament = (id) => {
   var filePath = appConfig.dataPath + 'tournaments/' + id + ".json";
-  var filePathBak = appConfig.dataPath + 'tournaments/bak/' + id + "_" + exports.formatNow() + ".json";
-  fs.createReadStream(filePath).pipe(fs.createWriteStream(filePathBak));
+  var backupFolder = appConfig.dataPath + 'tournaments/bak/';
+  !fs.existsSync(backupFolder) && fs.mkdirSync(backupFolder);
+  var backupFilePath = backupFolder + id + "_" + exports.formatNow() + ".json";
+  fs.createReadStream(filePath).pipe(fs.createWriteStream(backupFilePath));
 }
 
 exports.writePlayers = (json) => {
@@ -40,12 +43,16 @@ exports.writePlayers = (json) => {
 
 exports.backupPlayers = () => {
   var filePath = appConfig.dataPath + "participants.json";
-  var filePathBak = appConfig.dataPath + 'bak/participants' + "_" + exports.formatNow() + ".json";
-  fs.createReadStream(filePath).pipe(fs.createWriteStream(filePathBak));
+  var backupFolder = appConfig.dataPath + 'bak/';
+  !fs.existsSync(backupFolder) && fs.mkdirSync(backupFolder);
+  var backupFilePath = backupFolder + 'participants' + "_" +
+    exports.formatNow() + ".json";
+  fs.createReadStream(filePath).pipe(fs.createWriteStream(backupFilePath));
 }
 
 exports.getTemplateConfig = () =>
-  JSON.parse(fs.readFileSync(appConfig.dataPath + 'templates/templateConfig.json', 'utf-8'));
+  JSON.parse(fs.readFileSync(
+    appConfig.dataPath + 'templates/templateConfig.json', 'utf-8'));
 
 exports.shuffle = (array) => {
   var currentIndex = array.length, temporaryValue, randomIndex;
